@@ -53,18 +53,20 @@ namespace XUnitTestProjectWeather
 
         [Theory]
         [InlineData(250)]
+        [InlineData(245)]
+        [InlineData(202)]
         public async Task UnitTestNumberOfCountries(int Expected)
         {
             //Arrange
             var test = new WeatherTable();
 
             var result = await test.GetAllCountryAndCapitalCityNamesAsync();
-
+            var r = await test.GetCityWeatherAsync(result);
             //Act
             
 
             //Assert
-            Assert.Equal(Expected,result.Count());
+            Assert.Equal(Expected,r.Count());
         }
 
         bool IsEqual(City a, City b)

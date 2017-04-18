@@ -12,6 +12,7 @@ namespace Weather
         Task<IEnumerable<City>> GetCapitalCityInformationAsync(IEnumerable<Country> rcvdData);
         Task<IEnumerable<City>> GetCityGroupIdWeatherAsync(IEnumerable<City> CapitalCities);
         Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<City> Cities);
+        Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<Country> countries);
         Task<City> GetCityWeatherAsync(string cityName);
         Task<City> GetCityWeatherAsync(string cityName, string countryCode);
         Task<City> GetCityWeatherAsync(float lat, float lon);
