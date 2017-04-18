@@ -6,8 +6,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Weather.WeatherTable tess=new Weather.WeatherTable();
-            tess.FillWeatherTableForCapitalsOfCountries();
+            Weather.IWeatherTable tess = new Weather.WeatherTable();
+            tess.FillWeatherTableForCapitalsOfCountriesAsync().Wait();
 
             Console.WriteLine("Press any key to close.");
             Console.ReadKey();
