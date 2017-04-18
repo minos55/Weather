@@ -8,13 +8,13 @@ namespace Weather.WeatherTableEntity
     {
         public WeatherEntity(string cityName, string countryName)
         {
-            this.PartitionKey = cityName;
-            this.RowKey = countryName;
+            this.PartitionKey = countryName;
+            this.RowKey = cityName;
         }
         public WeatherEntity(City city)
         {
-            this.PartitionKey = city.Name;
-            this.RowKey = city.country;
+            this.PartitionKey = city.country;
+            this.RowKey = city.Name;
             this.Lat = city.coord.lat.ToString();
             this.Lon = city.coord.lon.ToString();
             this.WeatherParameter = city.weather.FirstOrDefault().main;
@@ -30,8 +30,8 @@ namespace Weather.WeatherTableEntity
 
         public WeatherEntity(string cityName, string countryName, float lat, float lon, string weatherParameter, string weatherDescription, float temp, float pressure, float humidity, float temp_Min, float temp_Max, float sea_level, float grnd_level)
         {
-            this.PartitionKey = cityName;
-            this.RowKey = countryName;
+            this.PartitionKey = countryName;
+            this.RowKey = cityName;
             this.Lat = lat.ToString();
             this.Lon = lon.ToString();
             this.WeatherParameter = weatherParameter;
