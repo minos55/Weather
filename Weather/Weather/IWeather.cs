@@ -15,6 +15,5 @@ namespace Weather
         Task<City> GetCityWeatherAsync(string cityName);
         Task<City> GetCityWeatherAsync(string cityName, string countryCode);
         Task<City> GetCityWeatherAsync(float lat, float lon);
-        Task FillWeatherTableForCapitalsOfCountriesAsync(); //testna
     }
 }

@@ -14,7 +14,6 @@ using Weather.SupportClasses;
 using Weather.WeatherTableEntity;
 using Serilog;
 using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Converters;
 
 namespace Weather
 {
@@ -76,21 +75,6 @@ namespace Weather
             TableOperation insert = TableOperation.InsertOrReplace(cityEntity);
             await table.ExecuteAsync(insert);
             Log.Information($"Entity added. Orignal ETag = {cityEntity.ETag}");
-        }
-
-        //testna metoda
-        public async Task FillWeatherTableForCapitalsOfCountriesAsync()
-        {
-            var countries = await GetAllCountryAndCapitalCityNamesAsync();       //Get an IEnumarable with countries and the names of their capitals
-            var capitalCities = await GetCapitalCityInformationAsync(countries);    //Get information of all the capital cities of countries send into it with an IEnumarable
-            //var f = await GetCityGroupIdWeatherAsync(capitalCities);
-            //capitalCities = await GetCityWeatherAsync(capitalCities);               //Get weather information for the IEnumerable of cities
-
-            var c = await GetCityWeatherAsync("Vienna", "AT");                         //Get weather information for the name of the city
-            var d = await GetCityWeatherAsync(48.21f, 16.37f);                    //Get weather information for the city at the coordinates
-            //await WriteCityWeatherToTableAsync(d);
-            //await WriteCityWeatherToTableAsync(f);
-            //await WriteCityWeatherToTableAsync(capitalCities);
         }
 
         public async Task<IEnumerable<Country>> GetAllCountryAndCapitalCityNamesAsync()
