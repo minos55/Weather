@@ -309,6 +309,41 @@ namespace Weather
             #endregion
         }
 
+        public async Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<Country> countries)
+        {
+            #region Slower way of geting weather information for more cities
+            int requestsPerMinuteLimit = 50;
+            ICollection<City> citiesList = new List<City>();
+            var Cities = countries.Where(x => !string.IsNullOrWhiteSpace(x.Capital) && !string.IsNullOrWhiteSpace(x.altSpellings.First()));
+            for (int i = 0; i < Cities.Count(); i = i + requestsPerMinuteLimit)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew();
+                var items = Cities.Skip(i).Take(requestsPerMinuteLimit);
+
+                foreach (var obj in items)
+                {
+                    var o = await GetCityWeatherAsync(obj.Capital, obj.altSpellings.First());
+
+                    if (!citiesList.Contains(o))
+                    {
+                        citiesList.Add(o);
+                    }
+
+                    
+                }
+                watch.Stop();
+                var elapsedMs = watch.ElapsedMilliseconds;
+
+                //if the requests finish sooner then 1 minute, the task is delayed till 1 minute is over so that new requests can be started
+                if (elapsedMs < 60000)
+                {
+                    await Task.Delay(TimeSpan.FromMilliseconds(60000 - elapsedMs));
+                }
+            }
+            return citiesList;
+            #endregion
+        }
+
         public async Task<City> GetCityWeatherAsync(string cityName, string countryCode)
         {
             string urlParametersWeather = $"?q={cityName},{countryCode}&units=metric&appid=dd40332c4190d0feb5adbeef17305957";
