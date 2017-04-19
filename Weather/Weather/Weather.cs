@@ -19,8 +19,8 @@ namespace Weather
 {
     public class WeatherTable : IWeatherTable
     {
-        private string AccountName { get; set; } = "mt1";
-        private string KeyValue { get; set; } = "O9+FoFPCQ4wqqfMJLm5I1zp7sePAgGGfowvDmCnGBt+AKlrdTXGOJ8QuzoQWz7yTsKPiOvBRE/8PfW5kRzzsTg==";
+        private string AccountName = "mt1";
+        private string KeyValue = "O9+FoFPCQ4wqqfMJLm5I1zp7sePAgGGfowvDmCnGBt+AKlrdTXGOJ8QuzoQWz7yTsKPiOvBRE/8PfW5kRzzsTg==";
 
         public WeatherTable()
         {
