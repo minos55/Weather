@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nomnio.CityWeather.SupportClasses
+namespace Nomnio.CityWeather
 {
     public class RootObject
     {

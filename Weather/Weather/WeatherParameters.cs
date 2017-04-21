@@ -1,4 +1,4 @@
-﻿namespace Nomnio.CityWeather.SupportClasses
+﻿namespace Nomnio.CityWeather
 {
     public class WeatherParameters
     {

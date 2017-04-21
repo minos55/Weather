@@ -1,12 +1,14 @@
 ﻿using Microsoft.WindowsAzure.Storage.Table;
 using System.Linq;
-using Nomnio.CityWeather.SupportClasses;
-using Nomnio.CityWeather.Interfaces;
 
-namespace Nomnio.CityWeather.WeatherTableEntity
+namespace Nomnio.CityWeather
 {
     public class CityWeatherTableEntity : TableEntity
     {
+
+        public CityWeatherTableEntity()
+        {
+        }
         public CityWeatherTableEntity(string cityName, string countryName)
         {
             this.PartitionKey = countryName;
