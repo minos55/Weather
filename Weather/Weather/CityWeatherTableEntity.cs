@@ -1,34 +1,37 @@
 ﻿using Microsoft.WindowsAzure.Storage.Table;
 using System.Linq;
-using Weather.SupportClasses;
 
-namespace Weather.WeatherTableEntity
+namespace Nomnio.CityWeather
 {
-    public class WeatherEntity : TableEntity
+    public class CityWeatherTableEntity : TableEntity
     {
-        public WeatherEntity(string cityName, string countryName)
+
+        public CityWeatherTableEntity()
+        {
+        }
+        public CityWeatherTableEntity(string cityName, string countryName)
         {
             this.PartitionKey = countryName;
             this.RowKey = cityName;
         }
-        public WeatherEntity(City city)
+        public CityWeatherTableEntity(City city)
         {
-            this.PartitionKey = city.country;
+            this.PartitionKey = city.Country;
             this.RowKey = city.Name;
-            this.Lat = city.coord.lat.ToString();
-            this.Lon = city.coord.lon.ToString();
-            this.WeatherParameter = city.weather.FirstOrDefault().main;
-            this.WeatherDescription = city.weather.FirstOrDefault().description;
-            this.Temp = city.main.temp.ToString();
-            this.Pressure = city.main.pressure.ToString();
-            this.Humidity = city.main.humidity.ToString();
-            this.Temp_Min = city.main.temp_min.ToString();
-            this.Temp_Max = city.main.temp_max.ToString();
-            this.Sea_level = city.main.sea_level.ToString();
-            this.Grnd_level = city.main.grnd_level.ToString();
+            this.Lat = city.Coord.Lat.ToString();
+            this.Lon = city.Coord.Lon.ToString();
+            this.WeatherParameter = city.Weather.FirstOrDefault().Main;
+            this.WeatherDescription = city.Weather.FirstOrDefault().Description;
+            this.Temp = city.Main.Temp.ToString();
+            this.Pressure = city.Main.Pressure.ToString();
+            this.Humidity = city.Main.Humidity.ToString();
+            this.Temp_Min = city.Main.Temp_min.ToString();
+            this.Temp_Max = city.Main.Temp_max.ToString();
+            this.Sea_level = city.Main.Sea_level.ToString();
+            this.Grnd_level = city.Main.Grnd_level.ToString();
         }
 
-        public WeatherEntity(string cityName, string countryName, float lat, float lon, string weatherParameter, string weatherDescription, float temp, float pressure, float humidity, float temp_Min, float temp_Max, float sea_level, float grnd_level)
+        public CityWeatherTableEntity(string cityName, string countryName, float lat, float lon, string weatherParameter, string weatherDescription, float temp, float pressure, float humidity, float temp_Min, float temp_Max, float sea_level, float grnd_level)
         {
             this.PartitionKey = countryName;
             this.RowKey = cityName;

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{F0B2CFE1-2CE2-47F9-A627-4DB4B77EFA92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProjectWeather", "XUnitTestProjectWeather\XUnitTestProjectWeather.csproj", "{8D17E22F-2E2E-4B99-A569-6EDF1FE56DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{2620FE11-F5CD-4EB9-A069-B29E850A73EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8D17E22F-2E2E-4B99-A569-6EDF1FE56DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D17E22F-2E2E-4B99-A569-6EDF1FE56DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D17E22F-2E2E-4B99-A569-6EDF1FE56DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2620FE11-F5CD-4EB9-A069-B29E850A73EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2620FE11-F5CD-4EB9-A069-B29E850A73EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2620FE11-F5CD-4EB9-A069-B29E850A73EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2620FE11-F5CD-4EB9-A069-B29E850A73EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,9 @@
-﻿namespace Weather.SupportClasses
+﻿namespace Nomnio.CityWeather
 {
     public class WeatherDescription
     {
-        public string main { get; set; } = string.Empty;//weather parameters (Rain, Snow, Extreme etc.)
-        public int id { get; set; } //Weather condition id
-        public string description { get; set; } = string.Empty;//Weather condition within the main parameter
+        public string Main { get; set; } = string.Empty;//weather parameters (Rain, Snow, Extreme etc.)
+        public int Id { get; set; } //Nomnio.Weather condition id
+        public string Description { get; set; } = string.Empty;//Nomnio.Weather condition within the main parameter
     }
 }
