@@ -11,30 +11,14 @@ using System.Threading.Tasks;
 
 namespace Nomnio.CityWeather
 {
-    public class City : WeatherBase, ICity
+    public class OpenWeatherMapServices : WeatherBase, IOpenWeatherMapServices
     {
-        public string Name { get; set; } = string.Empty; //Name of city
-        [JsonProperty("_id")] //Id of city from restcountries.eu
-        public int Id { get; set; } //Id of city from api.openweathermap.org
-        public string Country { get; set; } = string.Empty;//Code of country
-        public Coordinates Coord { get; set; } = new Coordinates();
-        public dynamic Sys { get; set; }
-        public List<WeatherDescription> Weather { get; set; } = new List<WeatherDescription>();
-        public WeatherParameters Main { get; set; } = new WeatherParameters();
-
-        public City()
+        public OpenWeatherMapServices()
         {
             InitializeLogger();
         }
 
-        public City(string _name, string _country)
-        {
-            InitializeLogger();
-            Name = _name;
-            Country = _country;
-        }
-
-        public async Task<IEnumerable<City>> GetCapitalCityIDsAsync(IEnumerable<ICountry> countries)
+        public async Task<IEnumerable<City>> GetCapitalCityIDsAsync(IEnumerable<Country> countries)
         {
             string path = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + @"\current_cities.json";
             if (File.Exists(path))
@@ -72,7 +56,7 @@ namespace Nomnio.CityWeather
             return new List<City>();
         }
 
-        public async Task<IEnumerable<City>> GetCityWeatherWithIdsAsync(IEnumerable<ICity> Cities)
+        public async Task<IEnumerable<City>> GetCityWeatherWithIdsAsync(IEnumerable<City> Cities)
         {
             #region Faster way of geting weather information for more cities
             using (var clientWeather = new HttpClient())
@@ -131,18 +115,18 @@ namespace Nomnio.CityWeather
                     }
                     else
                     {
-                        LogInformation($"{(int)responseWeather.StatusCode} ({responseWeather.ReasonPhrase})");
+                        myLog.Information($"{(int)responseWeather.StatusCode} ({responseWeather.ReasonPhrase})");
                     }
                     cityIds = "";
                 }
                 LogError();
-                LogInformation("Downloaded weather information for cities.");
+                myLog.Information("Downloaded weather information for cities.");
                 return _cities;
             }
             #endregion
         }
 
-        public async Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<ICity> cities)
+        public async Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<City> cities)
         {
             #region Slower way of geting weather information for more cities
             int requestsPerMinuteLimit = 50;
@@ -171,7 +155,7 @@ namespace Nomnio.CityWeather
             #endregion
         }
 
-        public async Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<ICountry> countries)
+        public async Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<Country> countries)
         {
             var cities = new List<City>();
             var city = countries.Where(x => !string.IsNullOrWhiteSpace(x.Capital) && !string.IsNullOrWhiteSpace(x.AltSpellings.FirstOrDefault()));
@@ -189,7 +173,7 @@ namespace Nomnio.CityWeather
         {
             string urlParametersWeather = $"?q={cityName},{country}{apiKey}";
             var obj = await GetWeatherAsync(urlParametersWeather);
-            LogInformation($"{informationString} {cityName}.");
+            myLog.Information($"{informationString} {cityName}.");
             return obj;
         }
 
@@ -197,7 +181,7 @@ namespace Nomnio.CityWeather
         {
             string urlParametersWeather = $"?q={cityName}{apiKey}";
             var obj = await GetWeatherAsync(urlParametersWeather);
-            LogInformation($"{informationString} {cityName}.");
+            myLog.Information($"{informationString} {cityName}.");
             return obj;
         }
 
@@ -205,7 +189,7 @@ namespace Nomnio.CityWeather
         {
             string urlParametersWeather = $"?lat={lat}&lon={lon}{apiKey}";
             var obj = await GetWeatherAsync(urlParametersWeather);
-            LogInformation($"{informationString} at lat={lat},lon={lon}.");
+            myLog.Information($"{informationString} at lat={lat},lon={lon}.");
             return obj;
         }
 
@@ -247,7 +231,7 @@ namespace Nomnio.CityWeather
                 }
                 else
                 {
-                    LogInformation($"{(int)responseWeather.StatusCode} ({responseWeather.ReasonPhrase})");
+                    myLog.Information($"{(int)responseWeather.StatusCode} ({responseWeather.ReasonPhrase})");
                 }
 
                 LogError();

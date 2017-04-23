@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Nomnio.CityWeather.Interfaces
 {
-    public interface ICountry
+    public interface IRestCountriesSevices
     {
         string Name { get; set; }
         string Capital { get; set; }

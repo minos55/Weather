@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Nomnio.CityWeather.Interfaces
 { 
-    public interface ICityWeatherTable
+    public interface ICityWeatherTableServices
     {
         Task WriteCityWeatherToTableAsync(City city);
         Task WriteCityWeatherToTableAsync(IEnumerable<City> cities);

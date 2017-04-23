@@ -10,13 +10,13 @@ using Nomnio.CityWeather.Interfaces;
 
 namespace Nomnio.CityWeather
 {
-    public class Country : WeatherBase,ICountry
+    public class RestCountriesSevices : WeatherBase, IRestCountriesSevices
     {
         public string Name { get; set; } = string.Empty;                        //Country name
         public string Capital { get; set; } = string.Empty;                     //Capital name
         public List<string> AltSpellings { get; set; } = new List<string>();    //"EXAMPLE: altSpellings": ["CO", "Republic of Colombia", "República de Colombia"]
 
-        public Country()
+        public RestCountriesSevices()
         {
             InitializeLogger();
         }
@@ -52,11 +52,11 @@ namespace Nomnio.CityWeather
                 }
                 else
                 {
-                    LogInformation($"{(int)responseCountries.StatusCode} ({responseCountries.ReasonPhrase})");
+                    myLog.Information($"{(int)responseCountries.StatusCode} ({responseCountries.ReasonPhrase})");
                 }
 
-                LogError();     
-                LogInformation("Downloaded country and capital city names.");
+                LogError();
+                myLog.Information("Downloaded country and capital city names.");
                 return countries;
             }
         }

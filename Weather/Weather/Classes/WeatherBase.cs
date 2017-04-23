@@ -10,7 +10,7 @@ namespace Nomnio.CityWeather
 {
     public abstract class WeatherBase
     {
-       protected ILogger myLog;
+        protected ILogger myLog;
         List<string> errors = new List<string>();
         protected const string apiKey = "&units=metric&appid=dd40332c4190d0feb5adbeef17305957";
         protected const string informationString = "Downloaded weather information for the city";
@@ -21,7 +21,7 @@ namespace Nomnio.CityWeather
         {
             
             var sourceTableClient = storageAccount.CreateCloudTableClient();
-            LogInformation("Connected to {Connection}", storageAccount);
+            myLog.Information("Connected to {Connection}", storageAccount);
             var table = sourceTableClient.GetTableReference(_tableName);
             await table.CreateIfNotExistsAsync();
             return table;
@@ -32,7 +32,7 @@ namespace Nomnio.CityWeather
             bool test = CloudStorageAccount.TryParse(connectionString, out StorageAccount);
             if (!test)
             {
-                LogError("Connection string is wrong.");
+                myLog.Error("Connection string is wrong.");
             }
             return StorageAccount;
         }
@@ -47,21 +47,6 @@ namespace Nomnio.CityWeather
         protected void InitializeLogger()
         {
             myLog = Log.ForContext(GetType());
-        }
-
-        protected void LogInformation(string information)
-        {
-            myLog.Information(information);
-        }
-
-        protected void LogInformation(string information,object t)
-        {
-            myLog.Information(information);
-        }
-
-        protected void LogError(string error)
-        {
-            myLog.Information(error);
         }
 
         protected void LogError()

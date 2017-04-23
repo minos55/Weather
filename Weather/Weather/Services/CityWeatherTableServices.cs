@@ -5,9 +5,9 @@ using Nomnio.CityWeather.Interfaces;
 
 namespace Nomnio.CityWeather
 {
-    public class CityWeatherTable : WeatherBase, ICityWeatherTable
+    public class CityWeatherTableServices : WeatherBase, ICityWeatherTableServices
     {
-        public CityWeatherTable()
+        public CityWeatherTableServices()
         {
             InitializeLogger();
         }
@@ -19,7 +19,7 @@ namespace Nomnio.CityWeather
             var table = await GetTableAsync(storageAccount, tableName);
 
             await InsertOrReplaceIntoTable(table, city);
-            LogInformation($"Wrote weather information into {table.Name}");
+            myLog.Information($"Wrote weather information into {table.Name}");
         }
 
         public async Task WriteCityWeatherToTableAsync(IEnumerable<City> cities)
@@ -31,7 +31,7 @@ namespace Nomnio.CityWeather
             {
                 await InsertOrReplaceIntoTable(table, city);
             }
-            LogInformation($"Wrote weather information into {table.Name}");
+            myLog.Information($"Wrote weather information into {table.Name}");
         }
 
         private async Task InsertOrReplaceIntoTable(CloudTable table, City city)
@@ -39,7 +39,7 @@ namespace Nomnio.CityWeather
             var cityEntity = new CityWeatherTableEntity(city);
             var insert = TableOperation.InsertOrReplace(cityEntity);
             await table.ExecuteAsync(insert);
-            LogInformation($"Entity added. Orignal ETag = {cityEntity.ETag}");
+            myLog.Information($"Entity added. Orignal ETag = {cityEntity.ETag}");
         }
     }
 }
