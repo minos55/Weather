@@ -14,8 +14,10 @@ namespace Nomnio.CityWeather
     public class City : WeatherBase
     {
         public string Name { get; set; } = string.Empty; //Name of city
-        [JsonProperty("_id")] //Id of city from restcountries.eu
-        public int Id { get; set; } //Id of city from api.openweathermap.org
+        [JsonProperty("_id")]//Id of city from restcountries.eu
+        private int _id{get;set;}
+        public int Id { get { return _id; } set { _id=value; } } //Id of city from api.openweathermap.org
+
         public string Country { get; set; } = string.Empty;//Code of country
         public Coordinates Coord { get; set; } = new Coordinates();
         public dynamic Sys { get; set; }

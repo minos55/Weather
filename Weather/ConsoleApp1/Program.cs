@@ -1,6 +1,8 @@
 ﻿using Nomnio.CityWeather;
 using Serilog;
 using System;
+using System.IO;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1
@@ -27,19 +29,21 @@ namespace ConsoleApp1
 
         static async Task TestMethod()
         {
+            
+
             var country = new Country();
-            var countries = await country.GetAllCountriesAndCapitalCityNamesAsync();
+            
+            var countries = await new RestCountriesSevices().GetAllCountriesAndCapitalCityNamesAsync();
             var city = new City();
             /* var cities = await city.GetCapitalCityIDsAsync(countries);
              var cities2 = await city.GetCityWeatherAsync(countries);
              var t=await city.GetCityWeatherAsync("Ljubljana", "SI");
- */
-            var citiesTask = city.GetCapitalCityIDsAsync(countries);
-            //var cities2Task = city.GetCityWeatherWithIdsAsync(citiesTask);
-            var cities2Task = city.GetCityWeatherAsync(countries);
-            var tTask = city.GetCityWeatherAsync("Ljubljana", "SI");
-
-            await Task.WhenAll(citiesTask,cities2Task, tTask);
+            */
+            var weatherService = new OpenWeatherMapServices();
+            var citiesTask = await weatherService.GetCapitalCityIDsAsync(countries);
+            var cities2Task = await weatherService.GetCityWeatherWithIdsAsync(citiesTask);
+            var cities3Task = await weatherService.GetCityWeatherAsync(countries);
+            var tTask = await weatherService.GetCityWeatherAsync("Ljubljana", "SI");
 
         }
     }

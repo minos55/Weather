@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace Nomnio.CityWeather
@@ -20,11 +21,14 @@ namespace Nomnio.CityWeather
 
         public async Task<IEnumerable<City>> GetCapitalCityIDsAsync(IEnumerable<Country> countries)
         {
-            string path = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + @"\current_cities.json";
-            if (File.Exists(path))
+            
+            //string path = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + @"\current_cities.json";
+            var location = typeof(City).GetTypeInfo().Assembly.Location;
+            var dirPath = Path.GetDirectoryName(location)+ @"\current_cities.json";
+            if (File.Exists(dirPath))
             {
                 var CapitalCities = new List<City>();
-                using (var stream = File.OpenRead(path))
+                using (var stream = File.OpenRead(dirPath))
                 using (var streamReader = new StreamReader(stream))
                 using (var jsonReader = new JsonTextReader(streamReader))
                 {
@@ -50,7 +54,7 @@ namespace Nomnio.CityWeather
                 }
 
                 LogError();
-                myLog.Information("Downloaded information {CitisCount }for capital cities. ");
+                myLog.Information("Downloaded number of capital cities is {CitiesCount}.", CapitalCities.Count);
                 return CapitalCities;
             }
             return new List<City>();
@@ -99,11 +103,13 @@ namespace Nomnio.CityWeather
                                         if (jsonReader.TokenType == JsonToken.StartObject)
                                         {
                                             var c = serializer.Deserialize<RootObject>(jsonReader);
+                                            
                                             foreach (var obj in Cities)
                                             {
                                                 int index = c.List.FindIndex(a => a.Id == obj.Id);
                                                 if (index != -1)
                                                 {
+                                                    c.List[index].Country = obj.Country;
                                                     _cities.Add(c.List[index]);
                                                 }
                                             }
@@ -120,7 +126,7 @@ namespace Nomnio.CityWeather
                     cityIds = "";
                 }
                 LogError();
-                myLog.Information("Downloaded weather information for cities.");
+                myLog.Information("Downloaded weather information for {CitiesCount} cities.", _cities.Count);
                 return _cities;
             }
             #endregion
@@ -231,7 +237,7 @@ namespace Nomnio.CityWeather
                 }
                 else
                 {
-                    myLog.Information($"{(int)responseWeather.StatusCode} ({responseWeather.ReasonPhrase})");
+                    myLog.Information("{StatusCode}({Reason}) ()",(int)responseWeather.StatusCode, responseWeather.ReasonPhrase);
                 }
 
                 LogError();

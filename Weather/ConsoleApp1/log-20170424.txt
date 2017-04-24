@@ -1,0 +1,886 @@
+2017-04-24 08:24:29 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 08:24:44 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 08:24:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded information {CitisCount }for capital cities. 
+2017-04-24 08:24:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 08:24:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 08:24:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 08:24:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 08:24:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 08:24:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 08:24:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 08:24:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 08:24:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 08:24:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 08:24:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 08:24:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 08:24:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 08:24:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vienna.
+2017-04-24 08:24:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baku.
+2017-04-24 08:24:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nassau.
+2017-04-24 08:24:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manama.
+2017-04-24 08:24:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dhaka.
+2017-04-24 08:24:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bridgetown.
+2017-04-24 08:24:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Minsk.
+2017-04-24 08:24:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brussels.
+2017-04-24 08:24:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Belmopan.
+2017-04-24 08:24:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Porto-Novo.
+2017-04-24 08:24:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hamilton.
+2017-04-24 08:24:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Thimphu.
+2017-04-24 08:24:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sucre.
+2017-04-24 08:24:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kralendijk.
+2017-04-24 08:24:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sarajevo.
+2017-04-24 08:24:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gaborone.
+2017-04-24 08:24:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brasília.
+2017-04-24 08:24:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Diego Garcia.
+2017-04-24 08:24:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Road Town.
+2017-04-24 08:24:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Charlotte Amalie.
+2017-04-24 08:24:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bandar Seri Begawan.
+2017-04-24 08:24:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sofia.
+2017-04-24 08:24:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ouagadougou.
+2017-04-24 08:24:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bujumbura.
+2017-04-24 08:24:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Phnom Penh.
+2017-04-24 08:24:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yaoundé.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ottawa.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Praia.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city George Town.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bangui.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city N'Djamena.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santiago.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Beijing.
+2017-04-24 08:24:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Flying Fish Cove.
+2017-04-24 08:24:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city West Island.
+2017-04-24 08:24:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bogotá.
+2017-04-24 08:24:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Moroni.
+2017-04-24 08:25:44 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brazzaville.
+2017-04-24 08:25:44 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kinshasa.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Avarua.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San José.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Zagreb.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Havana.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Willemstad.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nicosia.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Prague.
+2017-04-24 08:25:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Copenhagen.
+2017-04-24 08:25:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Djibouti.
+2017-04-24 08:25:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Roseau.
+2017-04-24 08:25:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santo Domingo.
+2017-04-24 08:25:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Quito.
+2017-04-24 08:25:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cairo.
+2017-04-24 08:25:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San Salvador.
+2017-04-24 08:25:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Malabo.
+2017-04-24 08:25:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Asmara.
+2017-04-24 08:25:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tallinn.
+2017-04-24 08:25:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Addis Ababa.
+2017-04-24 08:25:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Stanley.
+2017-04-24 08:25:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tórshavn.
+2017-04-24 08:25:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Suva.
+2017-04-24 08:25:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Helsinki.
+2017-04-24 08:25:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Paris.
+2017-04-24 08:25:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cayenne.
+2017-04-24 08:25:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Papeetē.
+2017-04-24 08:31:05 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 08:59:51 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 09:03:20 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 09:18:41 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 09:19:44 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 09:20:58 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 09:21:57 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 09:22:18 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:05:20 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 10:05:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 10:05:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 10:05:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 10:05:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:05:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 10:05:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 10:05:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 10:05:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 10:17:43 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:17:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:17:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:17:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for [] cities.
+2017-04-24 10:18:23 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:18:25 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:19:50 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:20:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:21:26 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:25:01 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:25:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:28:36 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:28:37 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:29:36 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 10:29:36 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:29:36 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 10:29:36 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 10:29:36 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 10:29:37 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 10:29:37 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 10:29:37 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 10:29:37 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 10:29:37 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 10:29:38 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 10:29:38 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 10:29:38 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 10:29:38 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 10:29:38 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vienna.
+2017-04-24 10:29:38 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baku.
+2017-04-24 10:29:38 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nassau.
+2017-04-24 10:29:39 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manama.
+2017-04-24 10:29:39 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dhaka.
+2017-04-24 10:29:39 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bridgetown.
+2017-04-24 10:29:39 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Minsk.
+2017-04-24 10:29:39 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brussels.
+2017-04-24 10:43:56 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:43:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:43:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 10:43:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:43:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 10:43:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 10:43:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 10:43:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 10:43:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 10:43:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 10:43:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 10:43:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 10:43:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 10:43:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 10:43:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 10:43:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 10:44:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vienna.
+2017-04-24 10:44:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baku.
+2017-04-24 10:44:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nassau.
+2017-04-24 10:44:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manama.
+2017-04-24 10:44:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dhaka.
+2017-04-24 10:44:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bridgetown.
+2017-04-24 10:44:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Minsk.
+2017-04-24 10:44:24 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:44:25 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:44:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 10:44:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:44:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 10:44:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 10:44:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 10:44:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 10:44:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 10:44:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 10:44:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 10:44:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 10:44:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 10:44:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for ["Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City"] cities.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vienna.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baku.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nassau.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manama.
+2017-04-24 10:45:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dhaka.
+2017-04-24 10:45:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bridgetown.
+2017-04-24 10:45:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Minsk.
+2017-04-24 10:45:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brussels.
+2017-04-24 10:45:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Belmopan.
+2017-04-24 10:45:46 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Porto-Novo.
+2017-04-24 10:45:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hamilton.
+2017-04-24 10:45:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Thimphu.
+2017-04-24 10:45:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sucre.
+2017-04-24 10:45:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kralendijk.
+2017-04-24 10:45:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sarajevo.
+2017-04-24 10:45:47 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gaborone.
+2017-04-24 10:45:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brasília.
+2017-04-24 10:45:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Diego Garcia.
+2017-04-24 10:45:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Road Town.
+2017-04-24 10:45:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Charlotte Amalie.
+2017-04-24 10:45:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bandar Seri Begawan.
+2017-04-24 10:45:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sofia.
+2017-04-24 10:45:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ouagadougou.
+2017-04-24 10:45:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bujumbura.
+2017-04-24 10:45:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Phnom Penh.
+2017-04-24 10:45:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yaoundé.
+2017-04-24 10:45:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ottawa.
+2017-04-24 10:45:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Praia.
+2017-04-24 10:45:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city George Town.
+2017-04-24 10:45:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bangui.
+2017-04-24 10:45:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city N'Djamena.
+2017-04-24 10:45:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santiago.
+2017-04-24 10:45:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Beijing.
+2017-04-24 10:45:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Flying Fish Cove.
+2017-04-24 10:45:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city West Island.
+2017-04-24 10:45:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bogotá.
+2017-04-24 10:45:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Moroni.
+2017-04-24 10:45:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brazzaville.
+2017-04-24 10:45:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kinshasa.
+2017-04-24 10:45:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Avarua.
+2017-04-24 10:45:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San José.
+2017-04-24 10:45:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Zagreb.
+2017-04-24 10:45:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Havana.
+2017-04-24 10:45:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Willemstad.
+2017-04-24 10:45:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nicosia.
+2017-04-24 10:45:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Prague.
+2017-04-24 10:45:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Copenhagen.
+2017-04-24 10:45:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Djibouti.
+2017-04-24 10:45:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Roseau.
+2017-04-24 10:45:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santo Domingo.
+2017-04-24 10:45:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Quito.
+2017-04-24 10:45:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cairo.
+2017-04-24 10:45:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San Salvador.
+2017-04-24 10:45:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Malabo.
+2017-04-24 10:45:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Asmara.
+2017-04-24 10:45:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tallinn.
+2017-04-24 10:45:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Addis Ababa.
+2017-04-24 10:45:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Stanley.
+2017-04-24 10:45:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tórshavn.
+2017-04-24 10:45:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Suva.
+2017-04-24 10:45:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Helsinki.
+2017-04-24 10:45:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Paris.
+2017-04-24 10:45:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cayenne.
+2017-04-24 10:45:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Papeetē.
+2017-04-24 10:45:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-aux-Français.
+2017-04-24 10:45:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Libreville.
+2017-04-24 10:45:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Banjul.
+2017-04-24 10:45:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tbilisi.
+2017-04-24 10:45:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Berlin.
+2017-04-24 10:45:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Accra.
+2017-04-24 10:45:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gibraltar.
+2017-04-24 10:45:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Athens.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nuuk.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. George's.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Basse-Terre.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hagåtña.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Guatemala City.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. Peter Port.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Conakry.
+2017-04-24 10:45:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bissau.
+2017-04-24 10:46:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Georgetown.
+2017-04-24 10:46:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-au-Prince.
+2017-04-24 10:46:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rome.
+2017-04-24 10:46:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tegucigalpa.
+2017-04-24 10:46:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city City of Victoria.
+2017-04-24 10:46:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Budapest.
+2017-04-24 10:46:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Reykjavík.
+2017-04-24 10:46:12 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:46:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:47:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 10:47:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:47:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 10:47:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 10:47:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 10:47:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 10:47:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for ["Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City"] cities.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 10:48:03 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vienna.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baku.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nassau.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manama.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dhaka.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bridgetown.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Minsk.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brussels.
+2017-04-24 10:48:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Belmopan.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Porto-Novo.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hamilton.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Thimphu.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sucre.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kralendijk.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sarajevo.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gaborone.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brasília.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Diego Garcia.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Road Town.
+2017-04-24 10:48:05 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Charlotte Amalie.
+2017-04-24 10:48:06 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bandar Seri Begawan.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sofia.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ouagadougou.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bujumbura.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Phnom Penh.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yaoundé.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ottawa.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Praia.
+2017-04-24 10:48:09 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city George Town.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bangui.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city N'Djamena.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santiago.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Beijing.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Flying Fish Cove.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city West Island.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bogotá.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Moroni.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brazzaville.
+2017-04-24 10:48:10 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kinshasa.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Avarua.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San José.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Zagreb.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Havana.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Willemstad.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nicosia.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Prague.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Copenhagen.
+2017-04-24 10:48:11 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Djibouti.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Roseau.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santo Domingo.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Quito.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cairo.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San Salvador.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Malabo.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Asmara.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tallinn.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Addis Ababa.
+2017-04-24 10:48:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Stanley.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tórshavn.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Suva.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Helsinki.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Paris.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cayenne.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Papeetē.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-aux-Français.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Libreville.
+2017-04-24 10:48:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Banjul.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tbilisi.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Berlin.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Accra.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gibraltar.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Athens.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nuuk.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. George's.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Basse-Terre.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hagåtña.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Guatemala City.
+2017-04-24 10:48:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. Peter Port.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Conakry.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bissau.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Georgetown.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-au-Prince.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rome.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tegucigalpa.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city City of Victoria.
+2017-04-24 10:48:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Budapest.
+2017-04-24 10:48:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Reykjavík.
+2017-04-24 10:49:40 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 10:49:42 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 10:49:43 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for ["Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City"] cities.
+2017-04-24 10:49:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 10:49:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 10:49:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 10:49:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 10:49:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vienna.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baku.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nassau.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manama.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dhaka.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bridgetown.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Minsk.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brussels.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Belmopan.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Porto-Novo.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hamilton.
+2017-04-24 10:49:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Thimphu.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sucre.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kralendijk.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sarajevo.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gaborone.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brasília.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Diego Garcia.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Road Town.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Charlotte Amalie.
+2017-04-24 10:49:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bandar Seri Begawan.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sofia.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ouagadougou.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bujumbura.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Phnom Penh.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yaoundé.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ottawa.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Praia.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city George Town.
+2017-04-24 10:49:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bangui.
+2017-04-24 10:49:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city N'Djamena.
+2017-04-24 10:49:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santiago.
+2017-04-24 10:49:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Beijing.
+2017-04-24 10:49:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Flying Fish Cove.
+2017-04-24 10:49:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city West Island.
+2017-04-24 10:49:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bogotá.
+2017-04-24 10:49:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Moroni.
+2017-04-24 10:50:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brazzaville.
+2017-04-24 10:50:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kinshasa.
+2017-04-24 10:50:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Avarua.
+2017-04-24 10:50:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San José.
+2017-04-24 10:50:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Zagreb.
+2017-04-24 10:50:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Havana.
+2017-04-24 10:50:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Willemstad.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nicosia.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Prague.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Copenhagen.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Djibouti.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Roseau.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santo Domingo.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Quito.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cairo.
+2017-04-24 10:50:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San Salvador.
+2017-04-24 10:50:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Malabo.
+2017-04-24 10:50:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Asmara.
+2017-04-24 10:50:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tallinn.
+2017-04-24 10:50:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Addis Ababa.
+2017-04-24 10:50:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Stanley.
+2017-04-24 10:50:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tórshavn.
+2017-04-24 10:50:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Suva.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Helsinki.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Paris.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cayenne.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Papeetē.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-aux-Français.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Libreville.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Banjul.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tbilisi.
+2017-04-24 10:50:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Berlin.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Accra.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gibraltar.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Athens.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nuuk.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. George's.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Basse-Terre.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hagåtña.
+2017-04-24 10:50:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Guatemala City.
+2017-04-24 10:50:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. Peter Port.
+2017-04-24 10:50:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Conakry.
+2017-04-24 10:50:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bissau.
+2017-04-24 10:50:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Georgetown.
+2017-04-24 10:50:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-au-Prince.
+2017-04-24 10:50:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rome.
+2017-04-24 10:50:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tegucigalpa.
+2017-04-24 10:50:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city City of Victoria.
+2017-04-24 10:50:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Budapest.
+2017-04-24 10:50:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Reykjavík.
+2017-04-24 10:51:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city New Delhi.
+2017-04-24 10:51:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Jakarta.
+2017-04-24 10:51:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yamoussoukro.
+2017-04-24 10:51:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tehran.
+2017-04-24 10:51:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baghdad.
+2017-04-24 10:51:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dublin.
+2017-04-24 10:51:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Douglas.
+2017-04-24 10:51:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Jerusalem.
+2017-04-24 10:51:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rome.
+2017-04-24 10:51:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kingston.
+2017-04-24 10:51:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tokyo.
+2017-04-24 10:51:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint Helier.
+2017-04-24 10:51:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Amman.
+2017-04-24 10:51:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Astana.
+2017-04-24 10:51:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nairobi.
+2017-04-24 10:51:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city South Tarawa.
+2017-04-24 10:51:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kuwait City.
+2017-04-24 10:51:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bishkek.
+2017-04-24 10:51:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vientiane.
+2017-04-24 10:51:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Riga.
+2017-04-24 10:51:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Beirut.
+2017-04-24 10:51:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Maseru.
+2017-04-24 10:51:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Monrovia.
+2017-04-24 10:51:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tripoli.
+2017-04-24 10:51:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vaduz.
+2017-04-24 10:51:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vilnius.
+2017-04-24 10:51:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luxembourg.
+2017-04-24 10:51:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Skopje.
+2017-04-24 10:51:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Antananarivo.
+2017-04-24 10:51:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lilongwe.
+2017-04-24 10:51:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kuala Lumpur.
+2017-04-24 10:51:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Malé.
+2017-04-24 10:51:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bamako.
+2017-04-24 10:51:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Valletta.
+2017-04-24 10:51:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Majuro.
+2017-04-24 10:51:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Fort-de-France.
+2017-04-24 10:51:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nouakchott.
+2017-04-24 10:51:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port Louis.
+2017-04-24 10:51:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mamoudzou.
+2017-04-24 10:51:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mexico City.
+2017-04-24 10:51:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Palikir.
+2017-04-24 10:51:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Chișinău.
+2017-04-24 10:51:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Monaco.
+2017-04-24 10:51:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ulan Bator.
+2017-04-24 10:51:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Podgorica.
+2017-04-24 10:51:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Plymouth.
+2017-04-24 10:51:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rabat.
+2017-04-24 10:51:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Maputo.
+2017-04-24 10:51:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Naypyidaw.
+2017-04-24 10:51:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Windhoek.
+2017-04-24 10:52:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yaren.
+2017-04-24 10:52:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kathmandu.
+2017-04-24 10:52:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Amsterdam.
+2017-04-24 10:52:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nouméa.
+2017-04-24 10:52:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Wellington.
+2017-04-24 10:52:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Managua.
+2017-04-24 10:52:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Niamey.
+2017-04-24 10:52:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Abuja.
+2017-04-24 10:52:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Alofi.
+2017-04-24 10:52:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kingston.
+2017-04-24 10:52:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pyongyang.
+2017-04-24 10:52:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saipan.
+2017-04-24 10:52:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oslo.
+2017-04-24 10:52:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Muscat.
+2017-04-24 10:52:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Islamabad.
+2017-04-24 10:52:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ngerulmud.
+2017-04-24 10:52:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ramallah.
+2017-04-24 10:52:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Panama City.
+2017-04-24 10:52:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port Moresby.
+2017-04-24 10:52:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Asunción.
+2017-04-24 10:52:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lima.
+2017-04-24 10:52:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manila.
+2017-04-24 10:52:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Adamstown.
+2017-04-24 10:52:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Warsaw.
+2017-04-24 10:52:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lisbon.
+2017-04-24 10:52:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San Juan.
+2017-04-24 10:52:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Doha.
+2017-04-24 10:52:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pristina.
+2017-04-24 10:52:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint-Denis.
+2017-04-24 10:52:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bucharest.
+2017-04-24 10:52:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Moscow.
+2017-04-24 10:52:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kigali.
+2017-04-24 10:52:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gustavia.
+2017-04-24 10:52:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Jamestown.
+2017-04-24 10:52:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Basseterre.
+2017-04-24 10:52:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Castries.
+2017-04-24 10:52:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Marigot.
+2017-04-24 10:52:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint-Pierre.
+2017-04-24 10:52:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kingstown.
+2017-04-24 10:52:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Apia.
+2017-04-24 10:52:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city City of San Marino.
+2017-04-24 10:52:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city São Tomé.
+2017-04-24 10:52:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Riyadh.
+2017-04-24 10:52:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dakar.
+2017-04-24 10:52:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Belgrade.
+2017-04-24 10:52:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Victoria.
+2017-04-24 10:52:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Freetown.
+2017-04-24 10:52:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Singapore.
+2017-04-24 10:52:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Philipsburg.
+2017-04-24 10:52:59 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bratislava.
+2017-04-24 10:53:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 10:53:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Honiara.
+2017-04-24 10:53:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mogadishu.
+2017-04-24 10:53:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pretoria.
+2017-04-24 10:53:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city King Edward Point.
+2017-04-24 10:53:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Seoul.
+2017-04-24 10:53:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Juba.
+2017-04-24 10:53:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Madrid.
+2017-04-24 10:53:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Colombo.
+2017-04-24 10:53:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Khartoum.
+2017-04-24 10:53:49 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Paramaribo.
+2017-04-24 10:53:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Longyearbyen.
+2017-04-24 10:53:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lobamba.
+2017-04-24 10:53:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Stockholm.
+2017-04-24 10:53:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bern.
+2017-04-24 10:53:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Damascus.
+2017-04-24 10:53:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Taipei.
+2017-04-24 10:53:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dushanbe.
+2017-04-24 10:53:51 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dodoma.
+2017-04-24 10:53:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bangkok.
+2017-04-24 10:53:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dili.
+2017-04-24 10:53:52 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lomé.
+2017-04-24 10:53:53 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Fakaofo.
+2017-04-24 10:53:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nuku'alofa.
+2017-04-24 10:53:54 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port of Spain.
+2017-04-24 10:53:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tunis.
+2017-04-24 10:53:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ankara.
+2017-04-24 10:53:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ashgabat.
+2017-04-24 10:53:55 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cockburn Town.
+2017-04-24 10:53:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Funafuti.
+2017-04-24 10:53:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kampala.
+2017-04-24 10:53:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kiev.
+2017-04-24 10:53:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Abu Dhabi.
+2017-04-24 10:53:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city London.
+2017-04-24 10:53:56 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Washington, D.C..
+2017-04-24 10:53:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Montevideo.
+2017-04-24 10:53:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tashkent.
+2017-04-24 10:53:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port Vila.
+2017-04-24 10:53:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Caracas.
+2017-04-24 10:53:57 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hanoi.
+2017-04-24 10:53:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mata-Utu.
+2017-04-24 10:53:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] 404("Not Found") ()
+2017-04-24 10:53:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city El Aaiún.
+2017-04-24 10:53:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sana'a.
+2017-04-24 10:53:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lusaka.
+2017-04-24 10:53:58 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Harare.
+2017-04-24 11:00:47 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 11:00:48 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 11:03:00 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 11:03:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 11:05:03 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 11:05:04 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 11:05:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for ["Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City", "Nomnio.CityWeather.City"] cities.
+2017-04-24 11:05:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 11:05:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 11:05:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 11:05:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 11:05:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 11:05:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 11:05:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 11:05:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 11:05:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 11:05:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.
+2017-04-24 11:05:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yerevan.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oranjestad.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Canberra.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vienna.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baku.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nassau.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manama.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dhaka.
+2017-04-24 11:05:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bridgetown.
+2017-04-24 11:05:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Minsk.
+2017-04-24 11:05:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brussels.
+2017-04-24 11:05:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Belmopan.
+2017-04-24 11:05:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Porto-Novo.
+2017-04-24 11:05:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hamilton.
+2017-04-24 11:05:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Thimphu.
+2017-04-24 11:05:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sucre.
+2017-04-24 11:05:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kralendijk.
+2017-04-24 11:05:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sarajevo.
+2017-04-24 11:05:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gaborone.
+2017-04-24 11:05:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brasília.
+2017-04-24 11:05:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Diego Garcia.
+2017-04-24 11:05:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Road Town.
+2017-04-24 11:05:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Charlotte Amalie.
+2017-04-24 11:05:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bandar Seri Begawan.
+2017-04-24 11:05:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sofia.
+2017-04-24 11:05:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ouagadougou.
+2017-04-24 11:05:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bujumbura.
+2017-04-24 11:05:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Phnom Penh.
+2017-04-24 11:05:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yaoundé.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ottawa.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Praia.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city George Town.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bangui.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city N'Djamena.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santiago.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Beijing.
+2017-04-24 11:05:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Flying Fish Cove.
+2017-04-24 11:05:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city West Island.
+2017-04-24 11:05:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bogotá.
+2017-04-24 11:05:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Moroni.
+2017-04-24 11:06:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Brazzaville.
+2017-04-24 11:06:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kinshasa.
+2017-04-24 11:06:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Avarua.
+2017-04-24 11:06:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San José.
+2017-04-24 11:06:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Zagreb.
+2017-04-24 11:06:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Havana.
+2017-04-24 11:06:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Willemstad.
+2017-04-24 11:06:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nicosia.
+2017-04-24 11:06:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Prague.
+2017-04-24 11:06:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Copenhagen.
+2017-04-24 11:06:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Djibouti.
+2017-04-24 11:06:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Roseau.
+2017-04-24 11:06:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Santo Domingo.
+2017-04-24 11:06:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Quito.
+2017-04-24 11:06:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cairo.
+2017-04-24 11:06:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San Salvador.
+2017-04-24 11:06:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Malabo.
+2017-04-24 11:06:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Asmara.
+2017-04-24 11:06:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tallinn.
+2017-04-24 11:06:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Addis Ababa.
+2017-04-24 11:06:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Stanley.
+2017-04-24 11:06:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tórshavn.
+2017-04-24 11:06:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Suva.
+2017-04-24 11:06:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Helsinki.
+2017-04-24 11:06:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Paris.
+2017-04-24 11:06:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cayenne.
+2017-04-24 11:06:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Papeetē.
+2017-04-24 11:06:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-aux-Français.
+2017-04-24 11:06:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Libreville.
+2017-04-24 11:06:20 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Banjul.
+2017-04-24 11:06:20 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tbilisi.
+2017-04-24 11:06:20 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Berlin.
+2017-04-24 11:06:20 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Accra.
+2017-04-24 11:06:20 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gibraltar.
+2017-04-24 11:06:20 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Athens.
+2017-04-24 11:06:20 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nuuk.
+2017-04-24 11:06:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. George's.
+2017-04-24 11:06:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Basse-Terre.
+2017-04-24 11:06:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hagåtña.
+2017-04-24 11:06:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Guatemala City.
+2017-04-24 11:06:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city St. Peter Port.
+2017-04-24 11:06:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Conakry.
+2017-04-24 11:06:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bissau.
+2017-04-24 11:06:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Georgetown.
+2017-04-24 11:06:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port-au-Prince.
+2017-04-24 11:06:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rome.
+2017-04-24 11:06:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tegucigalpa.
+2017-04-24 11:06:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city City of Victoria.
+2017-04-24 11:06:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Budapest.
+2017-04-24 11:06:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Reykjavík.
+2017-04-24 11:07:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city New Delhi.
+2017-04-24 11:07:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Jakarta.
+2017-04-24 11:07:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yamoussoukro.
+2017-04-24 11:07:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tehran.
+2017-04-24 11:07:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Baghdad.
+2017-04-24 11:07:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dublin.
+2017-04-24 11:07:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Douglas.
+2017-04-24 11:07:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Jerusalem.
+2017-04-24 11:07:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rome.
+2017-04-24 11:07:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kingston.
+2017-04-24 11:07:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tokyo.
+2017-04-24 11:07:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint Helier.
+2017-04-24 11:07:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Amman.
+2017-04-24 11:07:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Astana.
+2017-04-24 11:07:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nairobi.
+2017-04-24 11:07:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city South Tarawa.
+2017-04-24 11:07:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kuwait City.
+2017-04-24 11:07:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bishkek.
+2017-04-24 11:07:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vientiane.
+2017-04-24 11:07:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Riga.
+2017-04-24 11:07:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Beirut.
+2017-04-24 11:07:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Maseru.
+2017-04-24 11:07:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Monrovia.
+2017-04-24 11:07:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tripoli.
+2017-04-24 11:07:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vaduz.
+2017-04-24 11:07:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Vilnius.
+2017-04-24 11:07:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luxembourg.
+2017-04-24 11:07:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Skopje.
+2017-04-24 11:07:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Antananarivo.
+2017-04-24 11:07:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lilongwe.
+2017-04-24 11:07:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kuala Lumpur.
+2017-04-24 11:07:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Malé.
+2017-04-24 11:07:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bamako.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Valletta.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Majuro.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Fort-de-France.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nouakchott.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port Louis.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mamoudzou.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mexico City.
+2017-04-24 11:07:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Palikir.
+2017-04-24 11:07:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Chișinău.
+2017-04-24 11:07:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Monaco.
+2017-04-24 11:07:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ulan Bator.
+2017-04-24 11:07:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Podgorica.
+2017-04-24 11:07:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Plymouth.
+2017-04-24 11:07:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Rabat.
+2017-04-24 11:07:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Maputo.
+2017-04-24 11:07:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Naypyidaw.
+2017-04-24 11:07:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Windhoek.
+2017-04-24 11:08:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Yaren.
+2017-04-24 11:08:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kathmandu.
+2017-04-24 11:08:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Amsterdam.
+2017-04-24 11:08:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nouméa.
+2017-04-24 11:08:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Wellington.
+2017-04-24 11:08:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Managua.
+2017-04-24 11:08:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Niamey.
+2017-04-24 11:08:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Abuja.
+2017-04-24 11:08:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Alofi.
+2017-04-24 11:08:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kingston.
+2017-04-24 11:08:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pyongyang.
+2017-04-24 11:08:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saipan.
+2017-04-24 11:08:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Oslo.
+2017-04-24 11:08:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Muscat.
+2017-04-24 11:08:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Islamabad.
+2017-04-24 11:08:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ngerulmud.
+2017-04-24 11:08:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ramallah.
+2017-04-24 11:08:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Panama City.
+2017-04-24 11:08:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port Moresby.
+2017-04-24 11:08:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Asunción.
+2017-04-24 11:08:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lima.
+2017-04-24 11:08:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Manila.
+2017-04-24 11:08:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Adamstown.
+2017-04-24 11:08:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Warsaw.
+2017-04-24 11:08:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lisbon.
+2017-04-24 11:08:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city San Juan.
+2017-04-24 11:08:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Doha.
+2017-04-24 11:08:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pristina.
+2017-04-24 11:08:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint-Denis.
+2017-04-24 11:08:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bucharest.
+2017-04-24 11:08:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Moscow.
+2017-04-24 11:08:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kigali.
+2017-04-24 11:08:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Gustavia.
+2017-04-24 11:08:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Jamestown.
+2017-04-24 11:08:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Basseterre.
+2017-04-24 11:08:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Castries.
+2017-04-24 11:08:21 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Marigot.
+2017-04-24 11:08:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint-Pierre.
+2017-04-24 11:08:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kingstown.
+2017-04-24 11:08:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Apia.
+2017-04-24 11:08:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city City of San Marino.
+2017-04-24 11:08:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city São Tomé.
+2017-04-24 11:08:22 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Riyadh.
+2017-04-24 11:08:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dakar.
+2017-04-24 11:08:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Belgrade.
+2017-04-24 11:08:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Victoria.
+2017-04-24 11:08:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Freetown.
+2017-04-24 11:08:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Singapore.
+2017-04-24 11:08:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Philipsburg.
+2017-04-24 11:08:23 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bratislava.
+2017-04-24 11:09:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 11:09:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Honiara.
+2017-04-24 11:09:12 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mogadishu.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pretoria.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city King Edward Point.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Seoul.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Juba.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Madrid.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Colombo.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Khartoum.
+2017-04-24 11:09:13 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Paramaribo.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Longyearbyen.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lobamba.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Stockholm.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bern.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Damascus.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Taipei.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dushanbe.
+2017-04-24 11:09:14 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dodoma.
+2017-04-24 11:09:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Bangkok.
+2017-04-24 11:09:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Dili.
+2017-04-24 11:09:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lomé.
+2017-04-24 11:09:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Fakaofo.
+2017-04-24 11:09:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Nuku'alofa.
+2017-04-24 11:09:15 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port of Spain.
+2017-04-24 11:09:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tunis.
+2017-04-24 11:09:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ankara.
+2017-04-24 11:09:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ashgabat.
+2017-04-24 11:09:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Cockburn Town.
+2017-04-24 11:09:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Funafuti.
+2017-04-24 11:09:16 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kampala.
+2017-04-24 11:09:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kiev.
+2017-04-24 11:09:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Abu Dhabi.
+2017-04-24 11:09:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city London.
+2017-04-24 11:09:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Washington, D.C..
+2017-04-24 11:09:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Montevideo.
+2017-04-24 11:09:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tashkent.
+2017-04-24 11:09:17 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Port Vila.
+2017-04-24 11:09:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Caracas.
+2017-04-24 11:09:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Hanoi.
+2017-04-24 11:09:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mata-Utu.
+2017-04-24 11:09:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] 404("Not Found") ()
+2017-04-24 11:09:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city El Aaiún.
+2017-04-24 11:09:18 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Sana'a.
+2017-04-24 11:09:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Lusaka.
+2017-04-24 11:09:19 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Harare.
+2017-04-24 11:10:45 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Ljubljana.
+2017-04-24 11:29:48 [Nomnio.CityWeather.RestCountriesSevices] [Information] Downloaded country and capital city names.
+2017-04-24 11:29:50 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded number of capital cities is 202.
+2017-04-24 11:30:00 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for 202 cities.
+2017-04-24 11:30:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Kabul.
+2017-04-24 11:30:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Mariehamn.
+2017-04-24 11:30:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Tirana.
+2017-04-24 11:30:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Algiers.
+2017-04-24 11:30:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Pago Pago.
+2017-04-24 11:30:01 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Andorra la Vella.
+2017-04-24 11:30:02 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Luanda.
+2017-04-24 11:30:02 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city The Valley.
+2017-04-24 11:30:06 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Saint John's.
+2017-04-24 11:30:06 [Nomnio.CityWeather.OpenWeatherMapServices] [Information] Downloaded weather information for the city Buenos Aires.

@@ -12,6 +12,8 @@ namespace WeatherUnitTests
     {
         protected const string connectionString = "DefaultEndpointsProtocol=https;AccountName=mt1;AccountKey=O9+FoFPCQ4wqqfMJLm5I1zp7sePAgGGfowvDmCnGBt+AKlrdTXGOJ8QuzoQWz7yTsKPiOvBRE/8PfW5kRzzsTg==;EndpointSuffix=core.windows.net";
         protected const string tableName = "WeatherTable";
+
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         protected bool IsEqual(City a, City b)
         {
             if (a.Name == b.Name && a.Id == b.Id && a.Country == b.Country && a.Coord.Lat == b.Coord.Lat && a.Coord.Lon == b.Coord.Lon &&
@@ -21,6 +23,21 @@ namespace WeatherUnitTests
                 return true;
             }
             return false;
+        }
+
+        
+
+        protected string RandomString(int length)
+        {
+            var random = new Random();
+            string tableName = new string(Enumerable.Repeat(chars, length)
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+            return "t" + tableName;
+        }
+
+        protected async Task DeleteTableAsync(CloudTable table)
+        {
+            await table.DeleteIfExistsAsync();
         }
 
         protected async Task<IEnumerable<CityWeatherTableEntity>> GetTableEntitiesAsync(CloudTable table)
