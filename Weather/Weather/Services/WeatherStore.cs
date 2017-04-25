@@ -1,6 +1,5 @@
 ﻿using Microsoft.WindowsAzure.Storage.Table;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using Nomnio.Weather.Interfaces;
 using Microsoft.WindowsAzure.Storage;
 using Serilog;

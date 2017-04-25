@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 using Nomnio.Weather.Interfaces;
 using Serilog;
 using System;
@@ -8,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Reflection;
 using System.Threading.Tasks;
 
 namespace Nomnio.Weather

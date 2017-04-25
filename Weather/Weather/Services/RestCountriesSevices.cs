@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Nomnio.Weather.Interfaces;
 using Serilog;
 using System;

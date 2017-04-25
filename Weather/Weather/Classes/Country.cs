@@ -1,7 +1,4 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
-
-namespace Nomnio.Weather
+﻿namespace Nomnio.Weather
 {
     public class Country
     {

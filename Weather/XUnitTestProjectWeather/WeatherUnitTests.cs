@@ -2,8 +2,6 @@ using System.Threading.Tasks;
 using Nomnio.Weather;
 using Xunit;
 using System.Linq;
-using System.Reflection;
-using System.IO;
 using System.Collections.Generic;
 
 namespace WeatherUnitTests
