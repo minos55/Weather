@@ -4,15 +4,21 @@ namespace Nomnio.Weather
 {
     public class WeatherTableEntity : TableEntity
     {
+        public string Lat { get; set; } = string.Empty;
+        public string Lon { get; set; } = string.Empty;
+        public string WeatherDescription { get; set; } = string.Empty;
+        public string Temp { get; set; } = string.Empty;
 
         public WeatherTableEntity()
         {
         }
+
         public WeatherTableEntity(string cityName, string countryCode)
         {
             PartitionKey = countryCode;
             RowKey = cityName;
         }
+
         public WeatherTableEntity(Weather weather)
         {
             PartitionKey = weather.CountryCode;
@@ -33,9 +39,6 @@ namespace Nomnio.Weather
             Temp = temp.ToString();
         }
 
-        public string Lat { get; set; } = string.Empty;
-        public string Lon { get; set; } = string.Empty;
-        public string WeatherDescription { get; set; } = string.Empty;
-        public string Temp { get; set; } = string.Empty;
+        
     }
 }

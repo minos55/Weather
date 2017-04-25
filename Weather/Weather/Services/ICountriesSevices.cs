@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Nomnio.Weather.Interfaces
 {
-    public interface IRestCountriesSevices
+    public interface ICountriesSevices
     {
         Task<IEnumerable<Country>> GetAllCountriesWithCapitalCityNamesAsync();
     }

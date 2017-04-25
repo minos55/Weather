@@ -6,16 +6,16 @@ using Serilog;
 
 namespace Nomnio.Weather
 {
-    public class WeatherStore : IWeatherStore
+    public class AzureTableWeatherStore : IWeatherStore
     {
         private ILogger myLog;
         private string ConnectionString;
         private string TableName;
         CloudStorageAccount storageAccount;
 
-        public WeatherStore(string connectionString, string tableName)
+        public AzureTableWeatherStore(string connectionString, string tableName)
         {
-            myLog = Log.ForContext<WeatherStore>();
+            myLog = Log.ForContext<AzureTableWeatherStore>();
             ConnectionString = connectionString;
             TableName = tableName;
             storageAccount = GetCloudStorageAccount();

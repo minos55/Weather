@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Nomnio.Weather
 {
-    public class OpenWeatherMapServices : IOpenWeatherMapServices
+    public class OpenWeatherMapServices : IWeatherServices
     {
         private const string apiKey = "&units=metric&appid=dd40332c4190d0feb5adbeef17305957";
         private const string informationString = "Downloaded weather information for the city";
@@ -52,14 +52,7 @@ namespace Nomnio.Weather
                 timer = 0;
             }
 
-            //if it was less then a minute run this
-            if (limitCounter==50 && timer < 60000 )
-            {
-                limitCounter = 0;
-                await Task.Delay(TimeSpan.FromMilliseconds(60000 - timer));
-                startTime = DateTime.Now;
-                timer = 0;
-            }
+            
 
             using (var clientWeather = new HttpClient())
             {
@@ -110,6 +103,15 @@ namespace Nomnio.Weather
                 else
                 {
                     myLog.Information("{StatusCode}({Reason})",(int)responseWeather.StatusCode, responseWeather.ReasonPhrase);
+                }
+
+                //if it was less then a minute run this
+                if (limitCounter == 50 && timer < 60000)
+                {
+                    limitCounter = 0;
+                    await Task.Delay(TimeSpan.FromMilliseconds(60000 - timer));
+                    startTime = DateTime.Now;
+                    timer = 0;
                 }
 
                 return weather;

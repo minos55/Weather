@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Nomnio.Weather
 {
-    public class RestCountriesSevices : IRestCountriesSevices
+    public class RestCountriesSevices : ICountriesSevices
     {
         private ILogger myLog;
         public RestCountriesSevices()

@@ -41,7 +41,7 @@ namespace ConsoleApp1
                 var weather = await weatherService.GetWeatherAsync(item.CapitalCity, item.CountryCode);
                 test.Add(weather);
             }
-            var weatherStore = new WeatherStore(connectionString, tableName);
+            var weatherStore = new AzureTableWeatherStore(connectionString, tableName);
             
             foreach(var item in test)
             {

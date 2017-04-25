@@ -2,7 +2,7 @@
 
 namespace Nomnio.Weather.Interfaces
 {
-    public interface IOpenWeatherMapServices
+    public interface IWeatherServices
     {
         Task<Weather> GetWeatherAsync(string cityName, string country);
         Task<Weather> GetWeatherAsync(float lat, float lon);

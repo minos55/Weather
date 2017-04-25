@@ -72,5 +72,25 @@ namespace WeatherUnitTests
             await table.CreateIfNotExistsAsync();
             return table;
         }
+
+        protected IEnumerable<Weather> PrepareTestData()
+        {
+            var testData = new List<Weather>();
+            var random = new Random();
+            int size = random.Next(200, 300);
+            for (int i = 0; i < size; i++)
+            {
+                string cityName = new string(Enumerable.Repeat(chars, random.Next(1, 10))
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+                string countryName = new string(Enumerable.Repeat(chars, random.Next(1, 3))
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+                string weatherDescription = new string(Enumerable.Repeat(chars, random.Next(1, 16))
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+                float temp = (float)random.NextDouble();
+                testData.Add(new Weather(cityName, countryName,temp,temp, weatherDescription,temp));
+            }
+
+            return testData;
+        }
     }
 }
