@@ -45,12 +45,6 @@ namespace Nomnio.Weather
         private async Task<Weather> GetWeatherAsync(string urlParametersWeather)
         {
             //if this was called more then a minute ago reset counters
-            if(startTime.AddMinutes(1) < DateTime.Now)
-            {
-                startTime = DateTime.Now;
-                limitCounter = 0;
-                timer = 0;
-            }
 
             
 
@@ -110,7 +104,6 @@ namespace Nomnio.Weather
                 {
                     limitCounter = 0;
                     await Task.Delay(TimeSpan.FromMilliseconds(60000 - timer));
-                    startTime = DateTime.Now;
                     timer = 0;
                 }
 

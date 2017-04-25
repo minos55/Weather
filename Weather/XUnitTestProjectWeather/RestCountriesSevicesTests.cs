@@ -5,10 +5,9 @@ using Xunit;
 
 namespace WeatherUnitTests
 {
-    public class RestCountriesSevicesTests : TestBase
+    public class RestCountriesSevicesTests
     {
         [Theory]
-        [InlineData(250)]
         [InlineData(245)]   //This is the only right one
         public async Task NumberOfCountriesTest(int Expected)
         {

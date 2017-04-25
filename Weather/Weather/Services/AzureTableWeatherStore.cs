@@ -11,14 +11,14 @@ namespace Nomnio.Weather
         private ILogger myLog;
         private string ConnectionString;
         private string TableName;
-        CloudStorageAccount storageAccount;
+        CloudStorageAccount StorageAccount;
 
         public AzureTableWeatherStore(string connectionString, string tableName)
         {
             myLog = Log.ForContext<AzureTableWeatherStore>();
             ConnectionString = connectionString;
             TableName = tableName;
-            storageAccount = GetCloudStorageAccount();
+            GetCloudStorageAccount();
         }
 
         public async Task Save(Weather weather)
@@ -38,15 +38,14 @@ namespace Nomnio.Weather
         private async Task<CloudTable> GetTableAsync()
         {
 
-            var sourceTableClient = storageAccount.CreateCloudTableClient();
+            var sourceTableClient = StorageAccount.CreateCloudTableClient();
             var table = sourceTableClient.GetTableReference(TableName);
             await table.CreateIfNotExistsAsync();
             return table;
         }
 
-        private CloudStorageAccount GetCloudStorageAccount()
+        private void GetCloudStorageAccount()
         {
-            CloudStorageAccount StorageAccount = null;
             bool test = CloudStorageAccount.TryParse(ConnectionString, out StorageAccount);
             if (!test)
             {
@@ -54,9 +53,8 @@ namespace Nomnio.Weather
             }
             else
             {
-                myLog.Information("Connected to {Connection}", storageAccount);
+                myLog.Information("Connected to {Connection}", StorageAccount);
             }
-            return StorageAccount;
         }
     }
 }

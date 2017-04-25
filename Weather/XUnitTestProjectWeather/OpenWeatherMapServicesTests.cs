@@ -4,41 +4,25 @@ using Xunit;
 
 namespace WeatherUnitTests
 {
-    public class OpenWeatherMapServicesTests : TestBase
+    public class OpenWeatherMapServicesTests
     {
         [Theory]
-        [InlineData("Ljubljana", "SI", 46.05f, 14.51f)]
-        [InlineData("Athens", "GR", 37.98f, 23.72f)]
-        [InlineData("Baghdad", "IQ", 33.34f, 44.4f)]
-        public async Task ComparingOutputsTrueTest(string cityName, string countryCode, float lat, float lon)
+        [InlineData("Ljubljana", "SI", 46.05f, 14.51f,true)]
+        [InlineData("Athens", "GR", 37.98f, 23.72f, true)]
+        [InlineData("Baghdad", "IQ", 33.34f, 44.4f, true)]
+        [InlineData("Vienna", "AT", 48.21f, 16.37f,false)]
+        [InlineData("Tokyo", "JP", 35.69f, 139.69f,false)]
+        public async Task ComparingOutputsTrueTest(string cityName, string countryCode, float lat, float lon,bool expected)
         {
             //Arrange
             var weatherService = new OpenWeatherMapServices();
             //Act
             var result = await weatherService.GetWeatherAsync(lat, lon);
             var result2 = await weatherService.GetWeatherAsync(cityName, countryCode);
-            var t = IsEqual(result, result2);
+            var test = IsEqual(result, result2);
 
             //Assert
-            Assert.True(t);
-        }
-
-        //Has to be false, even though the coordinates are the same as the city, the api returns different location if you call with coordinates.
-        [Theory]
-        [InlineData("Vienna", "AT", 48.21f, 16.37f)]
-        [InlineData("Tokyo", "JP", 35.69f, 139.69f)]
-        public async Task ComparingOutputsFalseTest(string cityName, string countryCode, float lat, float lon)
-        {
-            //Arrange
-            var weatherService = new OpenWeatherMapServices();
-
-            //Act
-            var result = await weatherService.GetWeatherAsync(lat, lon);
-            var result2 = await weatherService.GetWeatherAsync(cityName, countryCode);
-            var t = IsEqual(result, result2);
-
-            //Assert
-            Assert.False(t);
+            Assert.Equal(expected, test);
         }
 
         [Theory]
@@ -62,6 +46,15 @@ namespace WeatherUnitTests
 
             //Assert
             Assert.True(test);
+        }
+
+        protected bool IsEqual(Weather a, Weather b)
+        {
+            if (a.CityName == b.CityName && a.CountryCode == b.CountryCode && a.Lat == b.Lat && a.Lon == b.Lon)
+            {
+                return true;
+            }
+            return false;
         }
 
     }
