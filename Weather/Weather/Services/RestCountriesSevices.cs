@@ -1,32 +1,32 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Nomnio.Weather.Interfaces;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using Nomnio.CityWeather.Interfaces;
 
-namespace Nomnio.CityWeather
+namespace Nomnio.Weather
 {
-    public class RestCountriesSevices : WeatherBase, IRestCountriesSevices
+    public class RestCountriesSevices : IRestCountriesSevices
     {
-        public string Name { get; set; } = string.Empty;                        //Country name
-        public string Capital { get; set; } = string.Empty;                     //Capital name
-        public List<string> AltSpellings { get; set; } = new List<string>();    //"EXAMPLE: altSpellings": ["CO", "Republic of Colombia", "República de Colombia"]
-
+        private ILogger myLog;
         public RestCountriesSevices()
         {
-            InitializeLogger();
+            myLog = Log.ForContext<RestCountriesSevices>();
+            
         }
-        public async Task<IEnumerable<Country>> GetAllCountriesAndCapitalCityNamesAsync()
+        public async Task<IEnumerable<Country>> GetAllCountriesWithCapitalCityNamesAsync()
         {
             using (var clientCountries = new HttpClient())
             {
                 string URLCountries = "https://restcountries.eu/rest/v2/all";
                 string urlParameters = "?fields=name;capital;altSpellings";
-                IEnumerable<Country> countries = new List<Country>();
+                var countries = new List<Country>();
                 clientCountries.BaseAddress = new Uri(URLCountries);
                 clientCountries.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
@@ -35,18 +35,33 @@ namespace Nomnio.CityWeather
                 var responseCountries = await clientCountries.GetAsync(urlParameters);
                 if (responseCountries.IsSuccessStatusCode)
                 {
-                    var settings = new JsonSerializerSettings();
-
-                    settings.NullValueHandling = NullValueHandling.Ignore;
-                    settings.MissingMemberHandling = MissingMemberHandling.Ignore;
-                    
-
                     using (var responseStreamCountries = await responseCountries.Content.ReadAsStreamAsync())
                     {
                         if (responseStreamCountries != null)
                         {
-                            var obj = JArray.Parse(new StreamReader(responseStreamCountries).ReadToEnd());
-                            countries = JsonConvert.DeserializeObject<IEnumerable<Country>>(obj.ToString(), settings);
+                            using (var streamReader = new StreamReader(responseStreamCountries))
+                            using (var jsonReader = new JsonTextReader(streamReader))
+                            {
+                                jsonReader.SupportMultipleContent = true;
+
+                                var serializer = new JsonSerializer();
+
+                                while (await jsonReader.ReadAsync())
+                                {
+                                    if (jsonReader.TokenType == JsonToken.StartObject)
+                                    {
+                                        var obj = serializer.Deserialize<dynamic>(jsonReader);
+                                        string countryName = obj.name;
+                                        string capitalCity = obj.capital;
+                                        IEnumerable<dynamic> AltSpellings = obj.altSpellings;
+                                        string countryCode = AltSpellings.FirstOrDefault();
+                                        if(!string.IsNullOrEmpty(countryName)&& !string.IsNullOrEmpty(capitalCity))
+                                        {
+                                            countries.Add(new Country(countryName, capitalCity, countryCode));
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -55,7 +70,6 @@ namespace Nomnio.CityWeather
                     myLog.Information($"{(int)responseCountries.StatusCode} ({responseCountries.ReasonPhrase})");
                 }
 
-                LogError();
                 myLog.Information("Downloaded country and capital city names.");
                 return countries;
             }

@@ -1,13 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Nomnio.CityWeather.Interfaces
+namespace Nomnio.Weather.Interfaces
 {
     public interface IRestCountriesSevices
     {
-        string Name { get; set; }
-        string Capital { get; set; }
-        List<string> AltSpellings { get; set; }
-        Task<IEnumerable<Country>> GetAllCountriesAndCapitalCityNamesAsync();
+        Task<IEnumerable<Country>> GetAllCountriesWithCapitalCityNamesAsync();
     }
 }

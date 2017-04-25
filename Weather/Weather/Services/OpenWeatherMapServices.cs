@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using Nomnio.CityWeather.Interfaces;
+using Nomnio.Weather.Interfaces;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,188 +11,32 @@ using System.Net.Http.Headers;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Nomnio.CityWeather
+namespace Nomnio.Weather
 {
-    public class OpenWeatherMapServices : WeatherBase, IOpenWeatherMapServices
+    public class OpenWeatherMapServices : IOpenWeatherMapServices
     {
+        private const string apiKey = "&units=metric&appid=dd40332c4190d0feb5adbeef17305957";
+        private const string informationString = "Downloaded weather information for the city";
+        private ILogger myLog;
+        private long timer;
+        private int limitCounter;
+        private DateTime startTime;
+
         public OpenWeatherMapServices()
         {
-            InitializeLogger();
+            myLog = Log.ForContext<OpenWeatherMapServices>();
+            startTime = DateTime.Now;
         }
 
-        public async Task<IEnumerable<City>> GetCapitalCityIDsAsync(IEnumerable<Country> countries)
+        public async Task<Weather> GetWeatherAsync(string cityName, string countryCode)
         {
-            
-            //string path = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + @"\current_cities.json";
-            var location = typeof(City).GetTypeInfo().Assembly.Location;
-            var dirPath = Path.GetDirectoryName(location)+ @"\current_cities.json";
-            if (File.Exists(dirPath))
-            {
-                var CapitalCities = new List<City>();
-                using (var stream = File.OpenRead(dirPath))
-                using (var streamReader = new StreamReader(stream))
-                using (var jsonReader = new JsonTextReader(streamReader))
-                {
-                    jsonReader.SupportMultipleContent = true;
-
-                    var serializer = new JsonSerializer();
-
-                    while (await jsonReader.ReadAsync())
-                    {
-                        if (jsonReader.TokenType == JsonToken.StartObject)
-                        {
-                            var c = serializer.Deserialize<City>(jsonReader);
-
-                            foreach (var item in countries.Where(w => !string.IsNullOrEmpty(w.Capital) && w.AltSpellings.FirstOrDefault() == c.Country && w.Capital.ToUpper() == c.Name.ToUpper()))
-                            {
-                                if (!CapitalCities.Contains(c))
-                                {
-                                    CapitalCities.Add(c);
-                                }
-                            }
-                        }
-                    }
-                }
-
-                LogError();
-                myLog.Information("Downloaded number of capital cities is {CitiesCount}.", CapitalCities.Count);
-                return CapitalCities;
-            }
-            return new List<City>();
-        }
-
-        public async Task<IEnumerable<City>> GetCityWeatherWithIdsAsync(IEnumerable<City> Cities)
-        {
-            #region Faster way of geting weather information for more cities
-            using (var clientWeather = new HttpClient())
-            {
-                string URLWeather = "http://api.openweathermap.org/data/2.5/group";
-                clientWeather.BaseAddress = new Uri(URLWeather);
-                clientWeather.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-
-                //Used for sending max 20 city id's
-                string cityIds = "";
-                var _cities = new List<City>();
-
-                for (int i = 0; i < Cities.Count(); i = i + 20)
-                {
-                    var items = Cities.Skip(i).Take(20);
-                    foreach (var obj in items)
-                    {
-                        cityIds = cityIds + obj.Id + ",";
-                    }
-                    cityIds = cityIds.Remove(cityIds.Length - 1);
-
-                    string urlParametersWeather = $"?id={cityIds}{apiKey}";
-                    var responseWeather = await clientWeather.GetAsync(urlParametersWeather);
-                    if (responseWeather.IsSuccessStatusCode)
-                    {
-                        using (var responseStreamWeather = await responseWeather.Content.ReadAsStreamAsync())
-                        {
-                            if (responseStreamWeather != null)
-                            {
-                                using (var streamReader = new StreamReader(responseStreamWeather))
-                                using (var jsonReader = new JsonTextReader(streamReader))
-                                {
-                                    jsonReader.SupportMultipleContent = true;
-
-                                    var serializer = new JsonSerializer();
-
-                                    while (await jsonReader.ReadAsync())
-                                    {
-                                        if (jsonReader.TokenType == JsonToken.StartObject)
-                                        {
-                                            var c = serializer.Deserialize<RootObject>(jsonReader);
-                                            
-                                            foreach (var obj in Cities)
-                                            {
-                                                int index = c.List.FindIndex(a => a.Id == obj.Id);
-                                                if (index != -1)
-                                                {
-                                                    c.List[index].Country = obj.Country;
-                                                    _cities.Add(c.List[index]);
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    else
-                    {
-                        myLog.Information($"{(int)responseWeather.StatusCode} ({responseWeather.ReasonPhrase})");
-                    }
-                    cityIds = "";
-                }
-                LogError();
-                myLog.Information("Downloaded weather information for {CitiesCount} cities.", _cities.Count);
-                return _cities;
-            }
-            #endregion
-        }
-
-        public async Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<City> cities)
-        {
-            #region Slower way of geting weather information for more cities
-            int requestsPerMinuteLimit = 50;
-            var citiesList = new List<City>();
-            for (int i = 0; i < cities.Count(); i = i + requestsPerMinuteLimit)
-            {
-                var watch = System.Diagnostics.Stopwatch.StartNew();
-                var items = cities.Skip(i).Take(requestsPerMinuteLimit);
-
-                foreach (var obj in items)
-                {
-                    var o = await GetCityWeatherAsync(obj.Name, obj.Country);
-
-                    citiesList.Add(o);
-                }
-                watch.Stop();
-                var elapsedMs = watch.ElapsedMilliseconds;
-
-                //if the requests finish sooner then 1 minute, the task is delayed till 1 minute is over so that new requests can be started
-                if (elapsedMs < 60000)
-                {
-                    await Task.Delay(TimeSpan.FromMilliseconds(60000 - elapsedMs));
-                }
-            }
-            return citiesList;
-            #endregion
-        }
-
-        public async Task<IEnumerable<City>> GetCityWeatherAsync(IEnumerable<Country> countries)
-        {
-            var cities = new List<City>();
-            var city = countries.Where(x => !string.IsNullOrWhiteSpace(x.Capital) && !string.IsNullOrWhiteSpace(x.AltSpellings.FirstOrDefault()));
-
-            foreach (var item in city)
-            {
-                cities.Add(new City(item.Capital, item.AltSpellings.First()));
-            }
-
-            return await GetCityWeatherAsync(cities);
-
-        }
-
-        public async Task<City> GetCityWeatherAsync(string cityName, string country)
-        {
-            string urlParametersWeather = $"?q={cityName},{country}{apiKey}";
+            string urlParametersWeather = $"?q={cityName},{countryCode}{apiKey}";
             var obj = await GetWeatherAsync(urlParametersWeather);
             myLog.Information($"{informationString} {cityName}.");
             return obj;
         }
 
-        public async Task<City> GetCityWeatherAsync(string cityName)
-        {
-            string urlParametersWeather = $"?q={cityName}{apiKey}";
-            var obj = await GetWeatherAsync(urlParametersWeather);
-            myLog.Information($"{informationString} {cityName}.");
-            return obj;
-        }
-
-        public async Task<City> GetCityWeatherAsync(float lat, float lon)
+        public async Task<Weather> GetWeatherAsync(float lat, float lon)
         {
             string urlParametersWeather = $"?lat={lat}&lon={lon}{apiKey}";
             var obj = await GetWeatherAsync(urlParametersWeather);
@@ -199,11 +44,28 @@ namespace Nomnio.CityWeather
             return obj;
         }
 
-        private async Task<City> GetWeatherAsync(string urlParametersWeather)
+        private async Task<Weather> GetWeatherAsync(string urlParametersWeather)
         {
+            //if this was called more then a minute ago reset counters
+            if(startTime.AddMinutes(1) < DateTime.Now)
+            {
+                startTime = DateTime.Now;
+                limitCounter = 0;
+                timer = 0;
+            }
+
+            //if it was less then a minute run this
+            if (limitCounter==50 && timer < 60000 )
+            {
+                limitCounter = 0;
+                await Task.Delay(TimeSpan.FromMilliseconds(60000 - timer));
+                startTime = DateTime.Now;
+                timer = 0;
+            }
+
             using (var clientWeather = new HttpClient())
             {
-                var city = new City();
+                var weather = new Weather();
                 string URLWeather = $"http://api.openweathermap.org/data/2.5/weather";
                 clientWeather.BaseAddress = new Uri(URLWeather);
                 clientWeather.DefaultRequestHeaders.Accept.Add(
@@ -212,6 +74,7 @@ namespace Nomnio.CityWeather
                 var responseWeather = await clientWeather.GetAsync(urlParametersWeather);
                 if (responseWeather.IsSuccessStatusCode)
                 {
+                    var watch = System.Diagnostics.Stopwatch.StartNew();
                     using (var responseStreamWeather = await responseWeather.Content.ReadAsStreamAsync())
                     {
                         if (responseStreamWeather != null)
@@ -227,21 +90,31 @@ namespace Nomnio.CityWeather
                                 {
                                     if (jsonReader.TokenType == JsonToken.StartObject)
                                     {
-                                        city = serializer.Deserialize<City>(jsonReader);
-                                        city.Country = city.Sys.country;
+                                        var obj= serializer.Deserialize<dynamic>(jsonReader);
+                                        string name = obj.name;
+                                        string country = obj.sys.country;
+                                        float lon = obj.coord.lon;
+                                        float lat = obj.coord.lat;
+                                        IEnumerable<dynamic> dynamicWeather = obj.weather;
+                                        string weatherDescription = dynamicWeather.ElementAt(0).main;
+                                        float temp= obj.main.temp;
+                                        weather = new Weather(name,country,lon,lat,weatherDescription,temp);
                                     }
                                 }
                             }
                         }
                     }
+                    watch.Stop();
+                    var elapsedMs = watch.ElapsedMilliseconds;
+                    limitCounter++;
+                    timer += elapsedMs;
                 }
                 else
                 {
-                    myLog.Information("{StatusCode}({Reason}) ()",(int)responseWeather.StatusCode, responseWeather.ReasonPhrase);
+                    myLog.Information("{StatusCode}({Reason})",(int)responseWeather.StatusCode, responseWeather.ReasonPhrase);
                 }
 
-                LogError();
-                return city;
+                return weather;
             }
         }
     }

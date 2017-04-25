@@ -1,8 +1,7 @@
-﻿using Nomnio.CityWeather;
+﻿using Nomnio.Weather;
 using Serilog;
 using System;
-using System.IO;
-using System.Reflection;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1
@@ -29,21 +28,25 @@ namespace ConsoleApp1
 
         static async Task TestMethod()
         {
-            
+            string connectionString = "DefaultEndpointsProtocol=https;AccountName=mt1;AccountKey=O9+FoFPCQ4wqqfMJLm5I1zp7sePAgGGfowvDmCnGBt+AKlrdTXGOJ8QuzoQWz7yTsKPiOvBRE/8PfW5kRzzsTg==;EndpointSuffix=core.windows.net";
+            string tableName = "WeatherTable2";
 
             var country = new Country();
-            
-            var countries = await new RestCountriesSevices().GetAllCountriesAndCapitalCityNamesAsync();
-            var city = new City();
-            /* var cities = await city.GetCapitalCityIDsAsync(countries);
-             var cities2 = await city.GetCityWeatherAsync(countries);
-             var t=await city.GetCityWeatherAsync("Ljubljana", "SI");
-            */
+            var countryService = new RestCountriesSevices();
+            var countries = await countryService.GetAllCountriesWithCapitalCityNamesAsync();
             var weatherService = new OpenWeatherMapServices();
-            var citiesTask = await weatherService.GetCapitalCityIDsAsync(countries);
-            var cities2Task = await weatherService.GetCityWeatherWithIdsAsync(citiesTask);
-            var cities3Task = await weatherService.GetCityWeatherAsync(countries);
-            var tTask = await weatherService.GetCityWeatherAsync("Ljubljana", "SI");
+            List<Weather> test = new List<Weather>();
+            foreach (var item in countries)
+            {
+                var weather = await weatherService.GetWeatherAsync(item.CapitalCity, item.CountryCode);
+                test.Add(weather);
+            }
+            var weatherStore = new WeatherStore(connectionString, tableName);
+            
+            foreach(var item in test)
+            {
+                await weatherStore.Save(item);
+            }
 
         }
     }

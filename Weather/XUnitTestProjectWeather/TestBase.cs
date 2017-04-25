@@ -1,6 +1,6 @@
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
-using Nomnio.CityWeather;
+using Nomnio.Weather;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +11,12 @@ namespace WeatherUnitTests
     public abstract class TestBase
     {
         protected const string connectionString = "DefaultEndpointsProtocol=https;AccountName=mt1;AccountKey=O9+FoFPCQ4wqqfMJLm5I1zp7sePAgGGfowvDmCnGBt+AKlrdTXGOJ8QuzoQWz7yTsKPiOvBRE/8PfW5kRzzsTg==;EndpointSuffix=core.windows.net";
-        protected const string tableName = "WeatherTable";
+        protected const string tableName = "WeatherTableTest";
 
         const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        protected bool IsEqual(City a, City b)
+        protected bool IsEqual(Weather a, Weather b)
         {
-            if (a.Name == b.Name && a.Id == b.Id && a.Country == b.Country && a.Coord.Lat == b.Coord.Lat && a.Coord.Lon == b.Coord.Lon &&
-                a.Weather.FirstOrDefault().Main == b.Weather.FirstOrDefault().Main && a.Weather.FirstOrDefault().Description == b.Weather.FirstOrDefault().Description &&
-                a.Weather.FirstOrDefault().Id == b.Weather.FirstOrDefault().Id)
+            if (a.CityName == b.CityName && a.CountryCode == b.CountryCode && a.Lat == b.Lat && a.Lon == b.Lon)
             {
                 return true;
             }
@@ -40,11 +38,11 @@ namespace WeatherUnitTests
             await table.DeleteIfExistsAsync();
         }
 
-        protected async Task<IEnumerable<CityWeatherTableEntity>> GetTableEntitiesAsync(CloudTable table)
+        protected async Task<IEnumerable<WeatherTableEntity>> GetTableEntitiesAsync(CloudTable table)
         {
-            var tableQuery = new TableQuery<CityWeatherTableEntity>();
+            var tableQuery = new TableQuery<WeatherTableEntity>();
 
-            IEnumerable<CityWeatherTableEntity> obj = new List<CityWeatherTableEntity>();
+            IEnumerable<WeatherTableEntity> obj = new List<WeatherTableEntity>();
             TableContinuationToken continuationToken = null;
             do
             {

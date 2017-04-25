@@ -1,24 +1,23 @@
 ﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Threading.Tasks;
-using Nomnio.CityWeather.Interfaces;
 
-namespace Nomnio.CityWeather
+namespace Nomnio.Weather
 {
-    public class Country : WeatherBase
+    public class Country
     {
         public string Name { get; set; } = string.Empty;                        //Country name
-        public string Capital { get; set; } = string.Empty;                     //Capital name
-        public List<string> AltSpellings { get; set; } = new List<string>();    //"EXAMPLE: altSpellings": ["CO", "Republic of Colombia", "República de Colombia"]
+        public string CapitalCity { get; set; } = string.Empty;                 //Capital name
+        public string CountryCode { get; set; } = string.Empty;                 //Country code EXAMPLE: "CO"
 
         public Country()
         {
-            InitializeLogger();
+        }
+
+        public Country(string countryName, string capitalCity, string countryCode)
+        {
+            Name = countryName;
+            CapitalCity = capitalCity;
+            CountryCode = countryCode;
         }
     }
 }
