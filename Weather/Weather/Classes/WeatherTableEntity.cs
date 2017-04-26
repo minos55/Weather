@@ -38,7 +38,5 @@ namespace Nomnio.Weather
             WeatherDescription = weatherDescription;
             Temp = temp.ToString();
         }
-
-        
     }
 }

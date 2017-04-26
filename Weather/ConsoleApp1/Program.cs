@@ -54,10 +54,6 @@ namespace ConsoleApp1
             var countryService = new RestCountriesSevices();
             var countries = await countryService.GetAllCountriesWithCapitalCityNamesAsync();
 
-            //var countries = new List<Country>();
-            //countries.Add(new Country("Slovenia", "Ljubljana", "SI"));
-            //countries.Add(new Country("Slovenia", "Maribor", "SI"));
-
             var weatherService = new OpenWeatherMapServices();
             var weatherStore = new AzureTableWeatherStore(connectionString, tableName);
 

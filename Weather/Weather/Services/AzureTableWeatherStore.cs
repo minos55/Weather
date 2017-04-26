@@ -41,7 +41,6 @@ namespace Nomnio.Weather
 
         private async Task<CloudTable> GetTableAsync()
         {
-
             var sourceTableClient = StorageAccount.CreateCloudTableClient();
             var table = sourceTableClient.GetTableReference(TableName);
             await table.CreateIfNotExistsAsync();

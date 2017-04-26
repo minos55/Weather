@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace Nomnio.Weather
@@ -49,8 +48,6 @@ namespace Nomnio.Weather
 
         private async Task<Weather> GetWeatherAsync(string urlParametersWeather)
         {
-            //if this was called more then a minute ago reset counters
-
             using (var clientWeather = new HttpClient())
             {
                 var weather = new Weather();
@@ -62,7 +59,6 @@ namespace Nomnio.Weather
                 var responseWeather = await clientWeather.GetAsync(urlParametersWeather);
                 if (responseWeather.IsSuccessStatusCode)
                 {
-                    var watch = System.Diagnostics.Stopwatch.StartNew();
                     using (var responseStreamWeather = await responseWeather.Content.ReadAsStreamAsync())
                     {
                         if (responseStreamWeather != null)
@@ -92,20 +88,12 @@ namespace Nomnio.Weather
                             }
                         }
                     }
-                    watch.Stop();
-                    
-                    
-                        var elapsedMs = watch.ElapsedMilliseconds;
+
                 }
                 else
                 {
                     myLog.Information("{StatusCode}({Reason})",(int)responseWeather.StatusCode, responseWeather.ReasonPhrase);
                 }
-
-                //if it was less then a minute run this
-                
-
-                
                 return weather;
             }
         }
