@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Nomnio.Weather.Interfaces;
 using Microsoft.WindowsAzure.Storage;
 using Serilog;
+using System;
 
 namespace Nomnio.Weather
 {
@@ -18,7 +19,8 @@ namespace Nomnio.Weather
             myLog = Log.ForContext<AzureTableWeatherStore>();
             ConnectionString = connectionString;
             TableName = tableName;
-            GetCloudStorageAccount();
+            StorageAccount = CloudStorageAccount.Parse(ConnectionString);
+            myLog.Information("Connected to {Connection}", StorageAccount);
         }
 
         public async Task Save(Weather weather)
@@ -36,7 +38,11 @@ namespace Nomnio.Weather
                 var insert = TableOperation.InsertOrReplace(weatherEntity);
                 await table.ExecuteAsync(insert);
                 myLog.Information("Entity added. Orignal ETag = {Entity} into {Table}", weatherEntity.ETag, table.Name);
-            } 
+            }
+            else
+            {
+                throw new Exception("Weather not saved into table");
+            }
         }
 
         private async Task<CloudTable> GetTableAsync()
@@ -45,19 +51,6 @@ namespace Nomnio.Weather
             var table = sourceTableClient.GetTableReference(TableName);
             await table.CreateIfNotExistsAsync();
             return table;
-        }
-
-        private void GetCloudStorageAccount()
-        {
-            bool test = CloudStorageAccount.TryParse(ConnectionString, out StorageAccount);
-            if (!test)
-            {
-                myLog.Error("Connection string is wrong.");
-            }
-            else
-            {
-                myLog.Information("Connected to {Connection}", StorageAccount);
-            }
         }
     }
 }

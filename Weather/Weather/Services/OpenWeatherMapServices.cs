@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Nomnio.Weather
@@ -32,8 +33,27 @@ namespace Nomnio.Weather
 
         public async Task<Weather> GetWeatherAsync(string cityName, string countryCode)
         {
+
             string urlParametersWeather = $"?q={cityName},{countryCode}{apiKey}";
             var obj = await throttle.Queue(GetWeatherAsync, urlParametersWeather);
+            
+            //if city not found try again with no spaces in name
+            var weather = await obj;
+            if(string.IsNullOrEmpty(weather.CityName))
+            {
+                cityName=Regex.Replace(cityName, @"\s+", "");
+                urlParametersWeather = $"?q={cityName},{countryCode}{apiKey}";
+                obj=await throttle.Queue(GetWeatherAsync, urlParametersWeather);
+
+                weather = await obj;
+                //if still not found throw exception
+                if (string.IsNullOrEmpty(weather.CityName))
+                {
+                    throw new Exception("City not found");
+                }
+            }
+
+            
             myLog.Information($"{informationString} {cityName}.");
             return await obj;
         }
@@ -42,6 +62,12 @@ namespace Nomnio.Weather
         {
             string urlParametersWeather = $"?lat={lat}&lon={lon}{apiKey}";
             var obj = await throttle.Queue(GetWeatherAsync, urlParametersWeather);
+            var weather = await obj;
+            //if not found throw exception
+            if (string.IsNullOrEmpty(weather.CityName))
+            {
+                throw new Exception("City not found");
+            }
             myLog.Information($"{informationString} at lat={lat},lon={lon}.");
             return await obj;
         }

@@ -67,6 +67,7 @@ namespace Nomnio.Weather
                 else
                 {
                     myLog.Information($"{(int)responseCountries.StatusCode} ({responseCountries.ReasonPhrase})");
+                    throw new Exception($"{(int)responseCountries.StatusCode} ({responseCountries.ReasonPhrase})");
                 }
 
                 myLog.Information("Downloaded country and capital city names.");

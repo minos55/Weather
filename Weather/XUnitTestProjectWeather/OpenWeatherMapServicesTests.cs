@@ -31,7 +31,6 @@ namespace WeatherUnitTests
         [InlineData("Ljubljana", "SI", 10,true)]
         public async Task GetWeatherThrottlerTest(string cityName, string countryCode,int iterations,bool expected)
         {
-            
             //Arrange
             var weatherService = new OpenWeatherMapServices();
 
