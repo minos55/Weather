@@ -29,10 +29,14 @@ namespace Nomnio.Weather
 
         private async Task InsertOrReplaceIntoTable(CloudTable table, Weather weather)
         {
-            var weatherEntity = new WeatherTableEntity(weather);
-            var insert = TableOperation.InsertOrReplace(weatherEntity);
-            await table.ExecuteAsync(insert);
-            myLog.Information("Entity added. Orignal ETag = {Entity} into {Table}", weatherEntity.ETag, table.Name);
+            
+            if(!string.IsNullOrEmpty(weather.CityName)&&!string.IsNullOrEmpty(weather.CountryCode))
+            {
+                var weatherEntity = new WeatherTableEntity(weather);
+                var insert = TableOperation.InsertOrReplace(weatherEntity);
+                await table.ExecuteAsync(insert);
+                myLog.Information("Entity added. Orignal ETag = {Entity} into {Table}", weatherEntity.ETag, table.Name);
+            } 
         }
 
         private async Task<CloudTable> GetTableAsync()

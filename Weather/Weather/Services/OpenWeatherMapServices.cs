@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Nomnio.Weather
@@ -16,37 +17,39 @@ namespace Nomnio.Weather
         private const string apiKey = "&units=metric&appid=dd40332c4190d0feb5adbeef17305957";
         private const string informationString = "Downloaded weather information for the city";
         private ILogger myLog;
-        private long timer;
-        private int limitCounter;
-        private DateTime startTime;
+
+        private readonly int maxRequests = 50;
+        
+        private readonly TimeSpan _maxPeriod = new TimeSpan(0, 0, 1, 0);
+        Throttler throttle;
+
+        private readonly Queue<DateTime> _requestTimes = new Queue<DateTime>();
 
         public OpenWeatherMapServices()
         {
             myLog = Log.ForContext<OpenWeatherMapServices>();
-            startTime = DateTime.Now;
+            throttle = new Throttler(maxRequests, _maxPeriod);
         }
 
         public async Task<Weather> GetWeatherAsync(string cityName, string countryCode)
         {
             string urlParametersWeather = $"?q={cityName},{countryCode}{apiKey}";
-            var obj = await GetWeatherAsync(urlParametersWeather);
+            var obj = await throttle.Queue(GetWeatherAsync, urlParametersWeather);
             myLog.Information($"{informationString} {cityName}.");
-            return obj;
+            return await obj;
         }
 
         public async Task<Weather> GetWeatherAsync(float lat, float lon)
         {
             string urlParametersWeather = $"?lat={lat}&lon={lon}{apiKey}";
-            var obj = await GetWeatherAsync(urlParametersWeather);
+            var obj = await throttle.Queue(GetWeatherAsync, urlParametersWeather);
             myLog.Information($"{informationString} at lat={lat},lon={lon}.");
-            return obj;
+            return await obj;
         }
 
         private async Task<Weather> GetWeatherAsync(string urlParametersWeather)
         {
             //if this was called more then a minute ago reset counters
-
-            
 
             using (var clientWeather = new HttpClient())
             {
@@ -90,9 +93,9 @@ namespace Nomnio.Weather
                         }
                     }
                     watch.Stop();
-                    var elapsedMs = watch.ElapsedMilliseconds;
-                    limitCounter++;
-                    timer += elapsedMs;
+                    
+                    
+                        var elapsedMs = watch.ElapsedMilliseconds;
                 }
                 else
                 {
@@ -100,13 +103,9 @@ namespace Nomnio.Weather
                 }
 
                 //if it was less then a minute run this
-                if (limitCounter == 50 && timer < 60000)
-                {
-                    limitCounter = 0;
-                    await Task.Delay(TimeSpan.FromMilliseconds(60000 - timer));
-                    timer = 0;
-                }
+                
 
+                
                 return weather;
             }
         }

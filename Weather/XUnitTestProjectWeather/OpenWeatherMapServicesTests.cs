@@ -12,7 +12,7 @@ namespace WeatherUnitTests
         [InlineData("Baghdad", "IQ", 33.34f, 44.4f, true)]
         [InlineData("Vienna", "AT", 48.21f, 16.37f,false)]
         [InlineData("Tokyo", "JP", 35.69f, 139.69f,false)]
-        public async Task ComparingOutputsTrueTest(string cityName, string countryCode, float lat, float lon,bool expected)
+        public async Task ComparingIfSearchByCityNameAndCountryIsSameAsWithCoordinates(string cityName, string countryCode, float lat, float lon,bool expected)
         {
             //Arrange
             var weatherService = new OpenWeatherMapServices();
@@ -26,8 +26,10 @@ namespace WeatherUnitTests
         }
 
         [Theory]
-        [InlineData("Ljubljana", "SI",100)]
-        public async Task TimeLimiterTest(string cityName, string countryCode,int iterations)
+        [InlineData("Ljubljana", "SI",51,true)]
+        [InlineData("Ljubljana", "SI", 50,false)]
+        [InlineData("Ljubljana", "SI", 10,true)]
+        public async Task GetWeatherThrottlerTest(string cityName, string countryCode,int iterations,bool expected)
         {
             
             //Arrange
@@ -42,13 +44,14 @@ namespace WeatherUnitTests
             }
             watch.Stop();
             var elapsedMs = watch.ElapsedMilliseconds;
-            var test = (elapsedMs > 60000*(iterations/50)) ? true:false;
+            var t = 60000 * (iterations / 50);
+            var test = (elapsedMs > t) ? true:false;
 
             //Assert
-            Assert.True(test);
+            Assert.Equal(expected, test);
         }
 
-        protected bool IsEqual(Weather a, Weather b)
+        private bool IsEqual(Weather a, Weather b)
         {
             if (a.CityName == b.CityName && a.CountryCode == b.CountryCode && a.Lat == b.Lat && a.Lon == b.Lon)
             {

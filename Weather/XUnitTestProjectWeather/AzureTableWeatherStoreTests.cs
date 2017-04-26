@@ -11,38 +11,37 @@ namespace WeatherUnitTests
 {
     public class AzureTableWeatherStoreTests
     {
-        [Fact]
-        public async Task WriteToTableTest()
+        [Theory]
+        [InlineData(100)]
+        public async Task WriteToTableTest(int numberOfTestData)
         {
-            string testTableName = "T" + Guid.NewGuid().ToString().Take(5);
+            string testTableName = "T" + Guid.NewGuid().ToString().Substring(0,5);
             string connectionString = "DefaultEndpointsProtocol=https;AccountName=mt1;AccountKey=O9+FoFPCQ4wqqfMJLm5I1zp7sePAgGGfowvDmCnGBt+AKlrdTXGOJ8QuzoQWz7yTsKPiOvBRE/8PfW5kRzzsTg==;EndpointSuffix=core.windows.net";
             var weatherStore = new AzureTableWeatherStore(connectionString, testTableName);
             var targetStorageAccount = GetCloudStorageAccount(connectionString);
             var targetTable = await GetTableAsync(targetStorageAccount, testTableName);
 
-            var cities = PrepareTestData();
+            var cities = PrepareTestData(numberOfTestData);
 
             foreach (var item in cities)
             {
                 await weatherStore.Save(item);
             }
 
-            var expected = cities.Count();
             var enteties = await GetTableEntitiesAsync(targetTable);
             var result = enteties.Count();
 
             await DeleteTableAsync(targetTable);
 
-            Assert.Equal(expected, result);
+            Assert.Equal(numberOfTestData, result);
         }
 
-        protected IEnumerable<Weather> PrepareTestData()
+        protected IEnumerable<Weather> PrepareTestData(int numberOfTestData)
         {
             string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             var testData = new List<Weather>();
             var random = new Random();
-            int size = random.Next(200, 300);
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < numberOfTestData; i++)
             {
                 string cityName = new string(Enumerable.Repeat(chars, random.Next(1, 10))
               .Select(s => s[random.Next(s.Length)]).ToArray());
