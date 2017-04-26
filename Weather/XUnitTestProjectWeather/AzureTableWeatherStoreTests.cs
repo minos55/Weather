@@ -36,7 +36,7 @@ namespace WeatherUnitTests
             Assert.Equal(numberOfTestData, result);
         }
 
-        protected IEnumerable<Weather> PrepareTestData(int numberOfTestData)
+        private IEnumerable<Weather> PrepareTestData(int numberOfTestData)
         {
             string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             var testData = new List<Weather>();
