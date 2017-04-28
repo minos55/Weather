@@ -39,7 +39,7 @@ namespace Nomnio.Weather
             
             //if city not found try again with no spaces in name
             var weather = await obj;
-            if(string.IsNullOrEmpty(weather.CityName))
+            if(weather.CityName.Length==0)
             {
                 cityName=Regex.Replace(cityName, @"\s+", "");
                 urlParametersWeather = $"?q={cityName},{countryCode}{apiKey}";
@@ -47,13 +47,12 @@ namespace Nomnio.Weather
 
                 weather = await obj;
                 //if still not found throw exception
-                if (string.IsNullOrEmpty(weather.CityName))
+                if (weather.CityName.Length == 0)
                 {
                     throw new Exception("City not found");
                 }
             }
 
-            
             myLog.Information($"{informationString} {cityName}.");
             return await obj;
         }
@@ -64,7 +63,7 @@ namespace Nomnio.Weather
             var obj = await throttle.Queue(GetWeatherAsync, urlParametersWeather);
             var weather = await obj;
             //if not found throw exception
-            if (string.IsNullOrEmpty(weather.CityName))
+            if (weather.CityName.Length == 0)
             {
                 throw new Exception("City not found");
             }
@@ -101,24 +100,19 @@ namespace Nomnio.Weather
                                     if (jsonReader.TokenType == JsonToken.StartObject)
                                     {
                                         var obj= serializer.Deserialize<dynamic>(jsonReader);
-                                        string name = obj.name;
-                                        string country = obj.sys.country;
-                                        float lon = obj.coord.lon;
-                                        float lat = obj.coord.lat;
+                                        weather.CityName = obj.name;
+                                        weather.CountryCode = obj.sys.country;
+                                        weather.Lon = obj.coord.lon;
+                                        weather.Lat = obj.coord.lat;
                                         IEnumerable<dynamic> dynamicWeather = obj.weather;
-                                        string weatherDescription = dynamicWeather.ElementAt(0).main;
-                                        float temp= obj.main.temp;
-                                        weather = new Weather(name,country,lon,lat,weatherDescription,temp);
+                                        weather.WeatherDescription = dynamicWeather.ElementAt(0).main;
+                                        weather.Temp= obj.main.temp;
                                     }
                                 }
                             }
                         }
                     }
 
-                }
-                else
-                {
-                    myLog.Information("{StatusCode}({Reason})",(int)responseWeather.StatusCode, responseWeather.ReasonPhrase);
                 }
                 return weather;
             }
