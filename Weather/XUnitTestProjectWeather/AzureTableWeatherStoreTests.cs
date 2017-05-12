@@ -49,7 +49,7 @@ namespace WeatherUnitTests
               .Select(s => s[random.Next(s.Length)]).ToArray());
                 string weatherDescription = new string(Enumerable.Repeat(chars, random.Next(1, 16))
               .Select(s => s[random.Next(s.Length)]).ToArray());
-                float temp = (float)random.NextDouble();
+                double temp = random.NextDouble();
                 testData.Add(new Weather(cityName, countryName, temp, temp, weatherDescription, temp));
             }
 

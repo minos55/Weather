@@ -4,10 +4,10 @@ namespace Nomnio.Weather
 {
     public class WeatherTableEntity : TableEntity
     {
-        public string Lat { get; set; } = string.Empty;
-        public string Lon { get; set; } = string.Empty;
+        public double Lat { get; set; }
+        public double Lon { get; set; }
         public string WeatherDescription { get; set; } = string.Empty;
-        public string Temp { get; set; } = string.Empty;
+        public double Temp { get; set; }
 
         public WeatherTableEntity()
         {
@@ -23,20 +23,20 @@ namespace Nomnio.Weather
         {
             PartitionKey = weather.CountryCode;
             RowKey = weather.CityName;
-            Lat = weather.Lat.ToString();
-            Lon = weather.Lon.ToString();
+            Lat = weather.Lat;
+            Lon = weather.Lon;
             WeatherDescription = weather.WeatherDescription;
-            Temp = weather.Temp.ToString();
+            Temp = weather.Temp;
         }
 
-        public WeatherTableEntity(string cityName, string countryCode, float lat, float lon, string weatherDescription, float temp)
+        public WeatherTableEntity(string cityName, string countryCode, double lat, double lon, string weatherDescription, double temp)
         {
             PartitionKey = countryCode;
             RowKey = cityName;
-            Lat = lat.ToString();
-            Lon = lon.ToString();
+            Lat = lat;
+            Lon = lon;
             WeatherDescription = weatherDescription;
-            Temp = temp.ToString();
+            Temp = temp;
         }
     }
 }

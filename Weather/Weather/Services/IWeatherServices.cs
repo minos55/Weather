@@ -5,6 +5,6 @@ namespace Nomnio.Weather.Interfaces
     public interface IWeatherServices
     {
         Task<Weather> GetWeatherAsync(string cityName, string country);
-        Task<Weather> GetWeatherAsync(float lat, float lon);
+        Task<Weather> GetWeatherAsync(double lat, double lon);
     }
 }

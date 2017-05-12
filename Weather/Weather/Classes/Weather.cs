@@ -4,10 +4,10 @@
     {
         public string CityName { get; set; } = string.Empty;        //Name of city
         public string CountryCode { get; set; } = string.Empty;     //Code of country
-        public float Lon { get; set; }
-        public float Lat { get; set; }
+        public double Lon { get; set; }
+        public double Lat { get; set; }
         public string WeatherDescription { get; set; } = string.Empty;
-        public float Temp { get; set; }
+        public double Temp { get; set; }
 
         public Weather()
         {}
@@ -18,7 +18,7 @@
             CountryCode = countryCode;
         }
 
-        public Weather(string cityName, string countryCode, float lon, float lat, string weatherDescription,float temp)
+        public Weather(string cityName, string countryCode, double lon, double lat, string weatherDescription, double temp)
         {
             CityName = cityName;
             CountryCode = countryCode;

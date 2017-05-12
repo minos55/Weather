@@ -57,7 +57,7 @@ namespace Nomnio.Weather
             return await obj;
         }
 
-        public async Task<Weather> GetWeatherAsync(float lat, float lon)
+        public async Task<Weather> GetWeatherAsync(double lat, double lon)
         {
             string urlParametersWeather = $"?lat={lat}&lon={lon}{apiKey}";
             var obj = await throttle.Queue(GetWeatherAsync, urlParametersWeather);

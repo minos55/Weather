@@ -7,12 +7,12 @@ namespace WeatherUnitTests
     public class OpenWeatherMapServicesTests
     {
         [Theory]
-        [InlineData("Ljubljana", "SI", 46.05f, 14.51f,true)]
-        [InlineData("Athens", "GR", 37.98f, 23.72f, true)]
-        [InlineData("Baghdad", "IQ", 33.34f, 44.4f, true)]
-        [InlineData("Vienna", "AT", 48.21f, 16.37f,false)]
-        [InlineData("Tokyo", "JP", 35.69f, 139.69f,false)]
-        public async Task ComparingIfSearchByCityNameAndCountryIsSameAsWithCoordinates(string cityName, string countryCode, float lat, float lon,bool expected)
+        [InlineData("Ljubljana", "SI", 46.05, 14.51,true)]
+        [InlineData("Athens", "GR", 37.98, 23.72, true)]
+        [InlineData("Baghdad", "IQ", 33.34, 44.4, true)]
+        [InlineData("Vienna", "AT", 48.21, 16.37,false)]
+        [InlineData("Tokyo", "JP", 35.69, 139.69,false)]
+        public async Task ComparingIfSearchByCityNameAndCountryIsSameAsWithCoordinates(string cityName, string countryCode, double lat, double lon,bool expected)
         {
             //Arrange
             var weatherService = new OpenWeatherMapServices();
